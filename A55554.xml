@@ -1,0 +1,940 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The animadverter animadverted: or, Brief observations on animadversions Published by Thomas Harlackenden, Esquire. Intitluled, Animadversions on several material passages in a book written by Sir Nathanael Povvel, Baronet. By the same authour.</title>
+            <author>Powell, Nathaniel, Sir, d. 1675.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1663</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 94 KB of XML-encoded text transcribed from 27 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A55554</idno>
+            <idno type="STC">Wing P3065A</idno>
+            <idno type="STC">ESTC R218342</idno>
+            <idno type="EEBO-CITATION">99829945</idno>
+            <idno type="PROQUEST">99829945</idno>
+            <idno type="VID">34392</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A55554)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 34392)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2014:05)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The animadverter animadverted: or, Brief observations on animadversions Published by Thomas Harlackenden, Esquire. Intitluled, Animadversions on several material passages in a book written by Sir Nathanael Povvel, Baronet. By the same authour.</title>
+                  <author>Powell, Nathaniel, Sir, d. 1675.</author>
+                  <author>Harlackenden, Thomas.</author>
+               </titleStmt>
+               <extent>[2], 48 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed for the authour,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1663.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of the original at the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Flood damage --  England --  Early works to 1800.</term>
+               <term>Wetlands --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-08</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2011-08</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:34392:1" rendition="simple:additions"/>
+            <p>THE Animadverter Animadverted: Or, Brief Obſervations On Animadverſions.</p>
+            <p>Publiſhed By <hi>Thomas Harlackenden,</hi> Eſquire.</p>
+            <p>Intituled, Animadverſions on ſeveral Material Paſſages in a Book Written by Sir NATHANAEL POVVEL, Baronet.</p>
+            <p>By the ſame Authour.</p>
+            <q>
+               <hi>Veritas non querit Angulos.</hi>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed for the Authour, 1663.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:34392:2"/>
+            <pb facs="tcp:34392:2" rendition="simple:additions"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb facs="tcp:34392:3"/>
+            <pb n="1" facs="tcp:34392:3"/>
+            <head>TO THE RIGHT HONORABLE <hi>JOHN</hi> Earl of <hi>Thanet Iſland,</hi> AND <hi>THOMAS</hi> Lord <hi>C<g ref="char:V">Ʋ</g>LPEPER,</hi> Baron of <hi>THORSWAY.</hi>
+            </head>
+            <opener>
+               <salute>My Lords,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">I</seg> Preſume it ſeems as ſtrange to your Lordſhips, as to my ſelf and others, that thoſe Animadverſions (com<g ref="char:EOLhyphen"/>poſed of ſo many miſtakes and er<g ref="char:EOLhyphen"/>rours, and larded throughout with ſuch malitious aſperſions and ſur<g ref="char:EOLhyphen"/>miſes) ſhould be publiſhed in the name of <hi>Thomas Harlackenden,</hi> Eſq; a Gentleman of Worth and Quality, and recommended to your Honours Patronage, whoſe Noble and heroick Spirits, have ever ſhewed much averſneſs from all pro<g ref="char:EOLhyphen"/>ceedings which endeavour to wound the reputation of a good cauſe Controverted, through the ſides of the Aſſer<g ref="char:EOLhyphen"/>tors.</p>
+            <p>I ſhall not trouble your Lordſhips with the repetiti<g ref="char:EOLhyphen"/>on of them, but annex hereunto a Liſt of thoſe Gentle<g ref="char:EOLhyphen"/>mens Names, who concurred with me in thoſe times
+<pb n="2" facs="tcp:34392:4"/>and actions, whereunto the Animadverter takes offence; not doubting but their known Integrities and Judgments, will abundantly vindicate my Reputation therein, being Perſons of too great Judgement, to be deluded with ſha<g ref="char:EOLhyphen"/>dowes only, and too much fidelity to betray their Truſt, and ſacrifice their Conſciences to advance any mans par<g ref="char:EOLhyphen"/>ticular Intereſt: Neither will I trouble your Lordſhips, by relating with what diligence thoſe Animadverſions were diſperſed at <hi>Allington</hi> Court, and at the late Seſſi<g ref="char:EOLhyphen"/>on of Sewers, amongſt the Commiſſioners and Jurors, at and before ſuch time as they were impanelled; the conſequence whereof I leave to your Lordſhips conſide<g ref="char:EOLhyphen"/>ration, upon that which enſued; but will briefly ſtate the matters in difference between us, and for ſatisfaction therein, refer your Lordſhips, partly to my former Treatiſes, and partly to that which followes.</p>
+            <p n="1">1. The principal matters in difference are briefly theſe. Firſt, whither the late drowned lands, being re<g ref="char:EOLhyphen"/>covered thirty yeers ſince, having formerly ſpent twen<g ref="char:EOLhyphen"/>ty yeers time, and twenty thouſand pounds fruitleſly in hopes of recovery, at the diſproportions of twelve pence <hi>per</hi> Acre, drowned lands, and four pence <hi>per</hi> Acre Som<g ref="char:EOLhyphen"/>mer lands, ſhall be ſcotted at the ſame diſproportions, during the continuance of the Indraught in <hi>Witterſham</hi> Level; the continuance thereof being neceſſary for both their preſervations, and no future advantage thereby gi<g ref="char:EOLhyphen"/>ven to the late drowned lands, then to the late ſommer-lands.</p>
+            <p>Whereunto I anſwer, that it is acknow ledged by the Animadverter, <hi>fol.</hi> 54. That when the Articles were a<g ref="char:EOLhyphen"/>greed upon between the Committees for the upper Le<g ref="char:EOLhyphen"/>vels and <hi>Witterſham,</hi> dated the 18th of <hi>February, 9 Car.</hi> 1. The upper Levels were drained, which occaſioned
+<pb n="3" facs="tcp:34392:4"/>thoſe Articles; from which your Lordſhips may ob<g ref="char:EOLhyphen"/>ſerve, That <hi>Witterſham</hi> Indraught, was not of abſolute neceſſity to the recovery of the drowned lands, other then to procure the concurrence of the owners of the ſom<g ref="char:EOLhyphen"/>mer-lands, and others, for whoſe preſervation the ſame was of abſolute neceſſity, as the Animadverters Grand<g ref="char:EOLhyphen"/>father hath often declared, (and after atteſted under his hand, not many weeks before he died) which your Lord<g ref="char:EOLhyphen"/>ſhips may peruſe in my Remonſtrance, towards the end thereof, <hi>fol.</hi> 6.</p>
+            <p>And further, The decaying ſommer-lands, notwith<g ref="char:EOLhyphen"/>ſtanding their many years preſervation by the three firſt Indraughts at <hi>Peening, Ebony,</hi> and <hi>Woodruff,</hi> grew after<g ref="char:EOLhyphen"/>wards into further decay; ſo that in the year, 1630. the Channel of the River of <hi>Rother,</hi> was ſo much ſwerved and decayed, as that all the lands ſewing thereunto, <hi>viz. Romney</hi> Marſh, <hi>Walland</hi> Marſh, &amp;c. all which lie ſome miles neerer the ſea then the upper Levels, were in danger to loſe their Sewer, much more the decaying ſommer-lands, which lie further from the fall, as is manifeſted by the tranſactions of the Lords Bayliffs and Jurates of <hi>Romney</hi> Marſh, the Commiſſioners for <hi>Walland</hi> Marſh, and the Commiſſioners for the upper Level, and are declared in my Remonſtrance, <hi>fol.</hi> 13, 14. All which makes it evident, That ſince the yeer 1633. (the late drowned lands being then perfectly drained as they now are) both the late decaying lands, and late drowned lands, have been only preſerved by the ſaid Works, and In<g ref="char:EOLhyphen"/>draught, and no further advantage thereby given to the late drowned lands, then to the late decaying lands. And now do your Lordſhips judge, by what Rules of Sew<g ref="char:EOLhyphen"/>ers, Law or Conſcience, the late drowned lands ſhall be further taxed at twelve pence <hi>per</hi> Acre, (leſſer meaſure)
+<pb n="4" facs="tcp:34392:5"/>and the late decaying lands at four pence <hi>per</hi> Acre (lar<g ref="char:EOLhyphen"/>ger meaſure) for the continuance of <hi>Wittersham</hi> In<g ref="char:EOLhyphen"/>draught; by means whereof the whole Rents and Pro<g ref="char:EOLhyphen"/>fits of all, or a conſiderable part of the late drowned lands, as they have been for fifty yeers paſt, ſo may be for fifty yeers to come, ſwallowed up in charge of Scotts, and the inheritance of thoſe lands, ſacrificed for the preſervation of thoſe decaying ſommer-lands, which during all that time, have, and will thereby yield to the Owners thereof, eighteen or twenty ſhillings <hi>per</hi> Acre, cleer yeerly profit above all charge of Scotts, ſo that it had been much better for the Owners of the late drowned lands, if the recovery of their lands had never been at<g ref="char:EOLhyphen"/>tempted.</p>
+            <p n="2">2. The ſecond matter in difference, is, Whether by the Law or Rule of Sewers, <hi>Sherley Moor</hi> ſhall enjoy a larger meaſure of 18. or 20. foot to the Pole, and all the other Levels but 16. foot ½ being now all under one Commiſſion.</p>
+            <p>I Anſwer, That this diſproportion of meaſure, is without Pre<g ref="char:EOLhyphen"/>ſident or Example; contrary to all Rules of Sewers, and contrary to the Statute or Ordinance, <hi>De Terris Men<g ref="char:EOLhyphen"/>ſurandis;</hi> and therefore the Animadverter endeavours to ſupport it with a pretended previous Agreement, made between the Owners of <hi>Sherley Moor,</hi> and thoſe of the other Levels, before their conjunction in one Commiſſi<g ref="char:EOLhyphen"/>on, <hi>viz.</hi> That <hi>Sherley Moor</hi> was to continue that diſpro<g ref="char:EOLhyphen"/>portion of meaſure, and of ſcotting at twelve pence <hi>per</hi> Acre drowned, and four pence <hi>per</hi> Acre ſommer-lands. Whereunto I anſwer, That this Agreement was never inſiſted on, nor objected at the Reference made to the four learned Lawyers in 1627. howbeit Sir <hi>Edward Hales</hi>
+               <pb n="5" facs="tcp:34392:5"/>Knight and Baronet, deceaſed, was then preſent, (who is pretended to be Party to ſuch Agreement) as appears by the caſe then drawn up, which is ſet forth in my Remon<g ref="char:EOLhyphen"/>ſtrance, <hi>fol.</hi> 17. and which was given in evidence by the Owners of the ſommer-lands, to the Jurors, at the late Seſſion of Sewers holden at <hi>Tenterden.</hi> And for that I find that the Animadverter <hi>fol.</hi> 23. hath ſet forth the de<g ref="char:EOLhyphen"/>cretal part (as he terms it) of the decree made the 26th of <hi>May 1626.</hi> And <hi>fol. 16</hi> hath ſet down part of the Pream<g ref="char:EOLhyphen"/>ble of a Decree, made the 19th of <hi>September, 1650.</hi> I ſhall preſent to your Lordſhips both theſe Decrees at large, that your Lordſhips may the better judge of the Animadverters candid Quotations and Inferences, men<g ref="char:EOLhyphen"/>tioned in the remainder of his Animadverſions, upon which I have not at this time leiſure to give your Lord<g ref="char:EOLhyphen"/>ſhips particular obſervations.</p>
+            <floatingText xml:lang="eng" type="decree">
+               <body>
+                  <opener>
+                     <dateline>At a Seſsion of Sewers holden at <hi>Northiam,</hi> in the County of <hi>Suſſex,</hi> 
+                        <date>the 26th. of <hi>May</hi> in the ſecond year of the Reign of our Sovereign Lord <hi>Charls,</hi> &amp;c.</date> before <hi>Sr. Nicholas Tufton, Sr. Iſaac Sidley, Knights</hi> and <hi>Baronets, Sr. John Wildigos, Sr. Ralph Boſvile, Sr. Alexander Cul<g ref="char:EOLhyphen"/>peper, Sr. Humphry Tufton,</hi> Knights, <hi>Robert Fo<g ref="char:EOLhyphen"/>ſter, John Theobald, John Porter, William Cul<g ref="char:EOLhyphen"/>peper, Thomas Dike,</hi> Eſquires. <hi>Peter Courthope, William White,</hi> Gentlemen. By vertue of his Maje<g ref="char:EOLhyphen"/>ſties Commiſsion to us and others Directed, bearing date the firſt day of <hi>June,</hi> in the firſt year of his Majeſties Reign, in manner and form following, <hi>viz.</hi>
+                     </dateline>
+                  </opener>
+                  <p>FOraſmuch as at this preſent Seſſion of Sewers, as well by Petition and Certificate of ſeveral perſons abſent, as by complaint of divers perſons preſent, and juſtly
+<pb n="6" facs="tcp:34392:6"/>proved, the deep drowned lands, lying in <hi>Eaſt Maitham, West Maitham, Newenden, Sandherſt, Bodiham, Enburſt, Northiam</hi> and <hi>Beckey,</hi> have heretofore been ſcotted and taxed, to pay more money then the ſaid lands are now, or then were worth to be let by the year, or more then the Feeſimple or Inheritance thereof can be ſold for, and yet neither do nor can receive any profit, or very little, not proportionable to the Charge by the ſaid works, for which the ſaid ſcotts are impoſed, whereby many Ow<g ref="char:EOLhyphen"/>ners of the ſaid Lands are much decayed and hindered, and no Tenants can be procured to occupy the ſaid Lands, by reaſon of the greatneſs of the ſcotts, and many fatherleſs children left unprovided for; Of all which the Commiſſioners now preſent, by their own knowledge and view, are ſufficiently aſſured; and therefore, accor<g ref="char:EOLhyphen"/>dingly as is petitioned, think fit it be reformed, and the ſaid inconveniences hereafter prevented, and the exceed<g ref="char:EOLhyphen"/>ing great ſcotts, and little profits accrewing thereby, to the Owners and Occupiers of the lands in the ſaid Levels, which may in time to come be avoided; The ſaid Com<g ref="char:EOLhyphen"/>miſſioners therefore do now Order and Decree, That the ſaid lands ſhall not be from henceforth ſcotted or taxed, to pay any ſcotts or taxes of money to be herefter im<g ref="char:EOLhyphen"/>poſed or ſet upon all or any of the ſaid lands in the ſaid Levels, more than the Annuall value or Rent of the ſame, are or may be let for, and that rateably to the pro<g ref="char:EOLhyphen"/>fit to be received by the work, for which the ſaid ſcotts are to be taxed and aſſeſſed (except ſuch ſcotts only as ſhall hereafter be ſet and impoſed for, or concerning ap<g ref="char:EOLhyphen"/>parent inundations, to the utter loſs of the whole Level, or greater part thereof.</p>
+                  <closer>
+                     <pb n="7" facs="tcp:34392:6"/>
+                     <signed>Sealed and ſubſcribed by
+<list>
+                           <item>
+                              <hi>Nicholas Tufton.</hi>
+                           </item>
+                           <item>
+                              <hi>Iſaac Sedley.</hi>
+                           </item>
+                           <item>
+                              <hi>Alex. Culpeper.</hi>
+                           </item>
+                           <item>
+                              <hi>Will. Culpeper.</hi>
+                           </item>
+                           <item>
+                              <hi>Ra. Boſvile.</hi>
+                           </item>
+                           <item>
+                              <hi>J. Wildigos.</hi>
+                           </item>
+                           <item>
+                              <hi>H. Tufion.</hi>
+                           </item>
+                           <item>
+                              <hi>Rob. Foſter.</hi>
+                           </item>
+                           <item>
+                              <hi>Iohn Theobald.</hi>
+                           </item>
+                           <item>
+                              <hi>Iohn Porter.</hi>
+                           </item>
+                           <item>
+                              <hi>Thomas Dike.</hi>
+                           </item>
+                           <item>
+                              <hi>Peter Courthope.</hi>
+                           </item>
+                           <item>
+                              <hi>William White.</hi>
+                           </item>
+                        </list>
+                     </signed>
+                  </closer>
+               </body>
+            </floatingText>
+            <floatingText xml:lang="eng" type="decree">
+               <body>
+                  <head>
+                     <hi>A Seſsion of Sewers holden at</hi> Robertsbridge, <hi>in the Parish of</hi> Salehurſt, <hi>in the County of</hi> Suſſex, <hi>upon Thurſday the</hi> 19th <hi>day of September,</hi> Anno Dom. 1650.</head>
+                  <p>Whereas at a Seſſion of Sewers holden at <hi>Cranbrook,</hi> the 7th day of <hi>Auguſt,</hi> in the 8th yeer of the Reign of the late King <hi>James</hi> of <hi>England,</hi> &amp;c. ſufficient Jurors of the reſpective Counties of <hi>Kent</hi> and <hi>Suſſex,</hi> did preſent; That there were then within the limits of the Commiſſion of Sewers, for the works upon the River of <hi>Rother,</hi> three thouſand Acres (by eſtimation) of Marſh lands, which were drowned, and yielded no benefit to the Owners thereof, and two thouſand Acres of Marſh land, or thereabouts, which were uſually drowned in the winter, and dry moſt part of the ſommer; but in iminent danger to be likewiſe drowned and loſt, if ſome ſpeedy courſe of preſervation were not taken. And fur<g ref="char:EOLhyphen"/>ther preſented, That for the payment and charge of all ſuch works as were then propounded, as well for the recovery of the ſaid drowned lands, as preſervation of the ſaid decaying lands, they though fit that the ſaid drowned lands ſhould be ſcotted at twelve pence the Acre, and the ſaid decaying lands at four pence the Acre, or after the ſame proportion to every greater or leſſer tax: All which was aſſented unto by the Commiſſioners then preſent, and Decreed accordingly. And afterwards as well to recover the ſaid drowned lands, as
+<pb n="8" facs="tcp:34392:7"/>to preſerve the ſaid decaying lands, three ſeveral In<g ref="char:EOLhyphen"/>draughts were ſucceſſively made, <hi>viz. Ebony, Peening,</hi> and <hi>Woodruff,</hi> and the whole charge and burthen thereof tax<g ref="char:EOLhyphen"/>ed and paid, after the rates of twelve pence the Acre drowned lands, and four pence the Acre ſommer-lands; and whereas after ſeventeen yeers charge and experience of the ſaid works, it appeared that the drowned lands had paid thereunto above ten pounds by the Acre, and received no benefit thereby, but continued in their drow<g ref="char:EOLhyphen"/>ned and loſt condition, and that the ſaid decaying lands received the ſole benefit thereof, having been preſerved from further decay. And whereas at a Seſſion of Sew<g ref="char:EOLhyphen"/>ers holden at <hi>Sandherſt,</hi> the 18th day of <hi>September,</hi> 1627. ſufficient Jurors of the reſpective Counties, did amongſt other things preſent, That the beforementioned decaying lands, ſcotted at four pence by the Acre, had received and enjoyed much more benefit by the ſaid works, then the drowned lands ſcotted at twelve pence by the Acre, and that the great charge of the lands ſcotted at twelve pence the Acre, conſidered with the ſmall profit recei<g ref="char:EOLhyphen"/>ved thereby, it was moſt neceſſary and requiſite, that from thenceforth all the ſaid Marſh-lands, as well ſom<g ref="char:EOLhyphen"/>mer-lands as wet lands, ſhould be taxed at one and the ſame rate by the Acre, and by one and the ſame admea<g ref="char:EOLhyphen"/>ſurement, towards the cleanſing and preſerving of the Channel, and all other payments and disburſements, for the general works whatſoever; And whereas in pur<g ref="char:EOLhyphen"/>ſuance thereof, and of an Award then after made by four learned Lawyers, to whom the determination of the differences ariſing from ſuch diſproportions of ſcotting, was referred by conſent of all parties, It was Ordered and Decreed at a Seſſion of Sewers holden at <hi>Tenterden</hi> the 11th day of <hi>March</hi> then following, by the principal
+<pb n="9" facs="tcp:34392:7"/>Owners of the ſaid decaying lands, and other Commiſſi<g ref="char:EOLhyphen"/>oners then preſent, That all ſcots then after to be granted for the general works upon the ſaid River of <hi>Rother,</hi> ſhould be granted and paid equally by the Acre, as well for the ſommer-lands and dry lands, as for the drowned and wet lands; which equality of ſcotting continued accordingly for ſome yeers after; All which notwith<g ref="char:EOLhyphen"/>ſtanding (the great Charge and Burthen of the Works and Indraught in <hi>Witterſham</hi> Level) have been taxed and paid at the former and unequal rates of twelve pence and four pence <hi>per</hi> Acre, and have coſt the ſaid drowned lands, though hereby drained and recovered, much more then the Inheritance thereof can now be ſold for, to the very great prejudice of all, and utter undoing of many of the Owners of thoſe lands. For prevention of the like in<g ref="char:EOLhyphen"/>conveniences for the future, and for that all the lands aſoreſaid do now enjoy as much benefit and ſecurity by the ſaid work, as they are capable to receive thereby, ſo that no part thereof can now properly be termed or ſcot<g ref="char:EOLhyphen"/>ted as drowned lands; and for that both the preſent and intended works upon the ſaid River, are, and tend only for preſervation of all the ſaid lands, and upon conſide<g ref="char:EOLhyphen"/>ration and debate of ſeveral Views taken of the ſaid Marſh-lands, and the Reports thereupon made by the reſpective Commiſſioners Ordered thereunto, And up<g ref="char:EOLhyphen"/>on conſideration of ſeveral preſentments of Jurors in that behalf made, And upon debate of the Petition this day exhibited by ſeveral Owners and Farmers of Marſh-lands ſormerly ſcotted as ſommer-lands, It is Ordered and Decreed, That all ſcots and taxes hereafter to be granted or taxed for the general works upon the ſaid Ri<g ref="char:EOLhyphen"/>ver of <hi>Rother,</hi> and for all Indraught, Rents, and other general charges and payments whatſoever incident there<g ref="char:EOLhyphen"/>unto,
+<pb n="10" facs="tcp:34392:8"/>That the Marſh-lands lying above <hi>Hackſden</hi> Bridge in <hi>Dixter</hi> Fleet, and in the Levels of <hi>Menſham, Ewherst,</hi> and <hi>Bodiham,</hi> ſhall be ſcotted and taxed at one third part of the higheſt ſumme, that any other lands ſhall be ſcotted or taxed at, and not at any higher or greater rate, That the lands lying in <hi>Appledore, Redhill,</hi> and <hi>Stone,</hi> ſhall be ſcotted and taxed at one half part of the higheſt ſumme that any other lands ſhall be ſcotted or taxed at, That the lands lying in the common Brook of <hi>Newenden,</hi> and in the Level of <hi>Peening,</hi> ſhall be ſcotted and taxed at two third parts of the higheſt ſumme that any other lands ſhall be ſcotted or taxed at, And that all the other lands lying within the limits of the Commiſſion afore<g ref="char:EOLhyphen"/>ſaid, heretofore ſcotted to the works upon the ſaid Ri<g ref="char:EOLhyphen"/>ver, ſhall be ſcotted and taxed at one full third part more then any other the lands before mentioned ſhall be ſcot<g ref="char:EOLhyphen"/>ted and taxed at, and not at any higher or greater rate, any Decree or Order heretofore made at any Seſſion of Sewers held for the works upon the ſaid River of <hi>Rether,</hi> to the contrary thereof in any wiſe notwithſtanding; And in purſuance thereof, it is now further Ordered and Decreed, That one ſcot of eight pence the Acre for all the lands lying above <hi>Hackſden</hi> Bridge in <hi>Dixter</hi> Fleer, and in the Levels of <hi>Mencham, Ewherſt,</hi> and <hi>Bodiham;</hi> of twelve pence the Acre for all the lands lying in <hi>Reabill, Appledore,</hi> and <hi>Stone;</hi> of one ſhilling four pence the Acre for all the lands lying in the Commom Brook of <hi>New<g ref="char:EOLhyphen"/>enden,</hi> and in the Level of <hi>Peening;</hi> and of two ſhillings the Acre for all the other lands lying within the limits of the ſaid Commiſſion heretofore ſcotted to the works upon the ſaid River of <hi>Rother,</hi> ſhall be paid unto Mr John <hi>Baker,</hi> at his houſe in <hi>Tenterden,</hi> upon Tueſday the 31. day of <hi>December</hi> next, and in default thereof, to
+<pb n="11" facs="tcp:34392:8"/>forfeit and pay the doubles and wanes according to the cuſtome of <hi>Romney</hi> Marſh.</p>
+                  <closer>
+                     <signed>
+                        <list>
+                           <item>
+                              <hi>Thomas Culpeper.</hi>
+                           </item>
+                           <item>
+                              <hi>Iohn Fowle.</hi>
+                           </item>
+                           <item>
+                              <hi>Iohn Mun.</hi>
+                           </item>
+                           <item>
+                              <hi>Richard Bowen.</hi>
+                           </item>
+                           <item>
+                              <hi>Thomas Dike.</hi>
+                           </item>
+                           <item>
+                              <hi>Iohn Buſbridge.</hi>
+                           </item>
+                           <item>
+                              <hi>Nathaniel Powell.</hi>
+                           </item>
+                           <item>
+                              <hi>Richard Kilbury.</hi>
+                           </item>
+                        </list>
+                     </signed>
+                  </closer>
+               </body>
+            </floatingText>
+            <p>And Sir <hi>Edward Hales</hi> after the alteration of the for<g ref="char:EOLhyphen"/>mer diſproportions of ſcots of twelve pence and four pence, never alledged any ſuch previous agreement; but contrariwiſe in the preſence of Sir <hi>Thomas Culpeper,</hi> Sir <hi>Iohn Henden, Iohn Auſten,</hi> Eſquire, my Self, and others, when we met together in <hi>London,</hi> to ſtate the matters in difference touching the proportions of ſcots, did declare himſelf well ſatisfied with the Rates of ſcots then agreed upon, (which were after decreed) and further expreſſed great content, that the ſaid difference was reconciled in ſo amicable a manner, and upon ſuch indifferent propor<g ref="char:EOLhyphen"/>tions; as by the teſtimony of a witneſs without excep<g ref="char:EOLhyphen"/>tion, then preſent, and yet living, can be made appear. The proportions of ſcots then agreed were put in wri<g ref="char:EOLhyphen"/>ting, <hi>viz.</hi>
+            </p>
+            <floatingText xml:lang="eng" type="decree">
+               <body>
+                  <p>We whoſe Names are hereunto ſubſcribed, Commiſ<g ref="char:EOLhyphen"/>ſioners and Owners principally Intereſſed in the Marſh-lands, commonly called and known by the name of the Upper Levels; For the final ending all differences be<g ref="char:EOLhyphen"/>tween us, concerning the proportion of ſcots, do for our ſelves Conſent and Agree, that the lands now ſcotted at twelve pence the Acre, be reduced unto ten pence the Acre, that the lands now ſcotted at four pence the Acre, be raiſed to ſix pence the Acre; and that the lands ſcot<g ref="char:EOLhyphen"/>ted at eight pence the Acre, and that the lands now ſcotted
+<pb n="12" facs="tcp:34392:9"/>at ſix pence the Acre, be continued at the ſame rates; and that all ſcots, which hereafter ſhall be granted, ſhall be taxed according to this proportion.</p>
+                  <closer>
+                     <signed>
+                        <list>
+                           <item>
+                              <hi>Edward Hales.</hi>
+                           </item>
+                           <item>
+                              <hi>Iohn Auſten.</hi>
+                           </item>
+                           <item>
+                              <hi>William Cage.</hi>
+                           </item>
+                           <item>
+                              <hi>Edmond Gibbon.</hi>
+                           </item>
+                           <item>
+                              <hi>Thomas Culpeper.</hi>
+                           </item>
+                           <item>
+                              <hi>Robert Cordell.</hi>
+                           </item>
+                           <item>
+                              <hi>Thomas Peirs.</hi>
+                           </item>
+                           <item>
+                              <hi>Nathaniel Powell.</hi>
+                           </item>
+                           <item>
+                              <hi>Thank. Frewen.</hi>
+                           </item>
+                        </list>
+                     </signed>
+                  </closer>
+               </body>
+            </floatingText>
+            <p>The Subſcribers were Owners of the greateſt part of the ſaid Levels, which was afterwards Decreed accord<g ref="char:EOLhyphen"/>ingly, and thoſe proportions continued until the late Seſſion at <hi>Tenterden.</hi>
+            </p>
+            <p>And further; This pretended previous Agreement be<g ref="char:EOLhyphen"/>ing objected at a Seſſion of Sewers holden at <hi>Cranbrook,</hi> the 15th of <hi>Aprill,</hi> 1650. Sir <hi>Thomas Culpeper,</hi> who at the time of ſuch conjunction in Commiſſion, was an active Commiſſioner for the Intereſt of the ſommer-lands, (not then having any drowned lands) and was choſen by the Owners of the ſommer-lands, to attend the ſaid Referrees in 1627. and muſt have known of that pretended Agreement, if any ſuch had been, denied that he ever knew of any ſuch Agreement. And further made ſeveral anſwers to that Objection, which are ſet forth in my <hi>Summary Relation, ſol.</hi> 27, 30. which I have alſo inſerted herein for your Lordſhips full ſatisfaction, deſiring your Lordſhips by the way to obſerve, That howbeit the Animadverter hath borrowed that Objecti<g ref="char:EOLhyphen"/>on (and others) thence, he doth not in his Animadver<g ref="char:EOLhyphen"/>ſions take notice of many of the anſwers there made to the ſame.</p>
+            <pb n="13" facs="tcp:34392:9"/>
+            <p> The Arguments were theſe.</p>
+            <p n="1">1. Firſt, they alledged, That <hi>Sherley Moor,</hi> and <hi>Ebo<g ref="char:EOLhyphen"/>nie</hi> were formerly governed by diſtinct Commiſſions from the other Levels, and would never have conſented to be put into one Commiſsion, and joyned in the charge of the Works with the drowned lands, if it had not been firſt agreed at what proportion each ſhould be Scotted, <hi>viz.</hi> the Sommer-lands at four pence, and the drowned lands at twelve pence the Acre.</p>
+            <p>To which it was anſwered, That if by agreement they meant the opinion and conſent of the Commiſſi<g ref="char:EOLhyphen"/>oners, as the conditions of the Lands at that time were, There is no Queſtion it was ſo; but if they intended, that there was any agreement in the nature of a Con<g ref="char:EOLhyphen"/>tract between party and party, that was not granted, neither was there any Record or Evidence, nor ſo much as the Preamble of a Decree to prove ir, which no man will eaſily believe could have been omitted in a Buſineſs of ſuch concernment, if any ſuch Agreement had been made; neither is it probable to be conjectured, that af<g ref="char:EOLhyphen"/>ter thoſe Levels were joyned in one Commiſſion, the Commiſſioners would have impannelled a Jury to en<g ref="char:EOLhyphen"/>quire and preſent what Works were fit to be done, and after what proportions the ſeveral Levels ought to be Scotted thereunto, and have had ſo many meetings, and ſpent ſo much time (from <hi>April</hi> 1609. till <hi>October</hi> 1613) before the ſame was determined, if it had been agreed, as was alledged. But admit there were any ſuch Agree<g ref="char:EOLhyphen"/>ment, yet by the Reference made to the four learned Lawyers aforeſaid, the Award by them made, and con<g ref="char:EOLhyphen"/>firmation thereof by Decree 11 <hi>March,</hi> 1627. (as is before expreſſed) the ſame was abſolutely made void.</p>
+            <p n="2">2. Secondly, it was alledged, that <hi>Sherley Moor, Ebo<g ref="char:EOLhyphen"/>my,</hi>
+               <pb n="14" facs="tcp:34392:10"/>and the reſt of the Sommer-lands, did continue their antient Channel, and did not ſew through <hi>Wit<g ref="char:EOLhyphen"/>terſham</hi> Level, as the drowned lands did, and that the carrying of the River of <hi>Rother</hi> through <hi>Witterſham,</hi> and making the Low lands thereof an Indraught, was onely in the intereſt of the drowned lands; and therefore that there was no reaſon that the Sommer-lands ſhould be taxed at an equal rate with the drowned lands, to<g ref="char:EOLhyphen"/>wards that great Rent and Work of charge.</p>
+            <p>To this it was anſwered, That although <hi>Sherley Moor,</hi> and the reſt of the Sommer-lands did not all carry their waters through <hi>Witterſham</hi> Level, a conſi<g ref="char:EOLhyphen"/>derable proportion of them did, <hi>viz.</hi> The Levels of <hi>Farnhil, Dombarn, Witterſham,</hi> and others; and that the making the low Lands of <hi>Witterſham,</hi> an Indraught was the onely means, which preſerved the antient Channel for ſewing any part of them; that onely having procured them that great fall by which their lands have not only been preſerved, but perfectly cured.</p>
+            <p>And it was further anſwered, That the making the Low lands of <hi>Witterſham</hi> an Indraught (which alone had occaſioned ſo great charge) was not in the in<g ref="char:EOLhyphen"/>tereſt of the drowned lands, but wholly in the intereſt of the Sommer-lands, to procure them the fall and ſewer which they now enjoy; for it was evident upon ſeveral breaches of <hi>Knel's</hi> Dam wall, that the Owners of the drowned lands might have drained them by car<g ref="char:EOLhyphen"/>rying their waters that way only, without letting of the Sea into <hi>Witterſham,</hi> which they often endeavored; but the Owners of the Sommer-lands from time to time oppoſed them, and that the drowned lands were drai<g ref="char:EOLhyphen"/>ned ſeveral years before thoſe Works were finiſhed, or the Sea let into the ſaid Indraught, by the breach in
+<pb n="15" facs="tcp:34392:10"/>
+               <hi>Knells</hi> Damm Wall in the year 1633.</p>
+            <p n="3">3. Thirdly, it was alledged, That <hi>Sherley</hi> Moor and <hi>Ebonie</hi> could at a cheaper rate by other ways have ſewed and ſecured their lands, then by joyning with the other Levels; but by what ways that was they did not ſhew.</p>
+            <p>In anſwer whereunto, It was ſaid, that this might have been more truly urged by the Owners of the drowned lands, If the Owners of the Sommer-lands would have permitted them to carry their waters through <hi>Witter<g ref="char:EOLhyphen"/>ſham</hi> Level, without making the low lands there an In<g ref="char:EOLhyphen"/>draught, before ſuch time as the Channel was ſo ſwer<g ref="char:EOLhyphen"/>ved as that the freſh waters could not come down to keep open their Out-fall, or at any time after.</p>
+            <p>And it was further anſwered, That in 1609. when the Levels of <hi>Sherley</hi> Moor, <hi>Ebony</hi> and <hi>Newenden</hi> were firſt joyned in one Commiſſion, the Sommer-lands were in a decaying condition and apparent danger to become drowned and loſt lands; That afterwards ſe<g ref="char:EOLhyphen"/>veral Works were undertaken, which coſt the Owners of the drowned lands above 30000 <abbr>l.</abbr> And thoſe Works proved altogether fruitleſs for the Recovery of the drowned lands, and ſerved only for the preſent pre<g ref="char:EOLhyphen"/>ſervation of the Sommer-lands; yet ſo as they fell a<g ref="char:EOLhyphen"/>gain into decay, and were in danger to become drowned and loſt lands, before ſuch time as the Sea was let into <hi>Witterſham</hi> Indraught: So that at a Seſſion of Sewers holden at <hi>Hawkhurst</hi> the 21. of <hi>January</hi> 1632. more then Thirty Jurors of the reſpective Counties of <hi>Kent</hi> and <hi>Suſſex</hi> did Preſent, That there then were within the limits of the Commiſſion for the Upper Levels 3000 Acres or thereabouts of Marſh lands that then were u<g ref="char:EOLhyphen"/>ſually drowned a great part of the year, and yielded little profit or benefit to the Owners thereof, And al<g ref="char:EOLhyphen"/>ſo
+<pb n="16" facs="tcp:34392:11"/>2000 Acres of Marſh land which then were good Sommer-land, and were dry moſt part of the year, but decaying, and in danger to be loſt and drowned; And that they did then conceive and verily believe, that the beſt way and means to regain the 3000 acres of drown<g ref="char:EOLhyphen"/>ed lands, and to preſerve the ſaid decaying lands, was by taking the Low-lands of <hi>Witterſham</hi> Level, and making and imploying the ſame for an Indraught. The charge whereof hath further coſt the Owners of the drowned lands near 100000 <abbr>l.</abbr> ſo that indifferent men will hard<g ref="char:EOLhyphen"/>ly be perſwaded without a Mathematical Demonſtra<g ref="char:EOLhyphen"/>tion, that the Sommer-lands could have found a chea<g ref="char:EOLhyphen"/>per way to preſerve and ſecure themſelves then by joyning with the other Levels.</p>
+            <p n="4">4. Fourthly, they urged, That when that great and chargeable Work of carrying the River of <hi>Rother</hi> through <hi>Witterſham</hi> Level was undertaken, the Owners of the Sommer-lands would never have joyned there<g ref="char:EOLhyphen"/>in: But that it was again agreed, that the lands ſhould be ſcotted at 12 pence and 4 pence, as they were before the Reference, and Award made by Sir <hi>Edward Little<g ref="char:EOLhyphen"/>ton,</hi> Sir <hi>John Glanvil,</hi> Sir <hi>Ralph Whitfield,</hi> and Serjeant <hi>Clerk.</hi>
+            </p>
+            <p>To this it was anſwered, That no ſuch Agreement was either produced in writing or proved <hi>per Testes;</hi> nor was it probable that the Owners of the drowned lands would ever have agreed or ſubmitted to be ſcotted after the former unequal rates of 12 pence and 4 pence, had not the ſaid Reference, and Award, with the De<g ref="char:EOLhyphen"/>cree of Confirmation thereof made the 11. of <hi>March</hi> 1627. been concealed from them after the deaths of <hi>Nicolas</hi> Earl of <hi>Thanet,</hi> Mr <hi>Dike,</hi> Mr <hi>Fowle,</hi> and other principally intereſſed in the drowned lands, who often
+<pb n="17" facs="tcp:34392:11"/>proteſted againſt bringing the lands again to the former unequal rate of Scotts.</p>
+            <p>And further, That as there was no general conſent of the Commiſſioners; ſo the ſame was never publiquely propounded to the Owners of the drowned lands for their Aſſent thereunto; and all impartial men are of opinion, that the Owners of the Sommer-lands had not then ſo much confidence either of the Juſtice, or Honor thereof, as to acquaint any one of the Owners of the drowned lands (not intereſſed in the Sommer-lands) how the Buſineſs of Scotting was ſettled in 1627. and then demand his conſent to bring the ſcotts to the former diſproportions of 12 <abbr>d.</abbr> and 4 <abbr>d.</abbr> after they had ſpent above 30000 <abbr>l.</abbr> which wholly redounded to the benefit of the Sommer-lands; and conſidering that when the Award and Decree before-mentioned were made, that the Sommer-lands and drowned lands ſhould be ſcotted alike, there were then no Works in hand or propounded for recovery or mending of the drowned lands; and then for them to Award or Decree that thoſe lands which were not yearly worth one peny, ſhould be ſcotted at 12 pence the acre to every ſcott, for ſuch Works only as tended to the preſervation of the Som<g ref="char:EOLhyphen"/>mer-lands (worth 20 ſhillings <hi>per</hi> acre) had been con<g ref="char:EOLhyphen"/>trary to all equity and common reaſon; But only in re<g ref="char:EOLhyphen"/>gard it was then intended, that if there ſhould again a<g ref="char:EOLhyphen"/>ny Works be undertaken, aſwell for Recovery of the drowned lands as Preſervation of the Sommer-lands, that they ſhould both joyn in an equal rate of ſcotts; and after all this how farr it was agreeable to equity or fair dealing for the Owners of the Sommer-lands to re<g ref="char:EOLhyphen"/>duce the ſcotts to the former diſproportions for the Works and Indraught in <hi>Witterſham</hi> Level, which were
+<pb n="18" facs="tcp:34392:12"/>only neceſſary for the preſervation of their lands, was left to indifferent Judges.</p>
+            <p>Laſtly, it was anſwered, That the Commiſſioners of Sewers (having ſo ſtrong an Adverſary as the Sea) were to alter and make Decrees as the condition of the lands and emergent occaſions ſhould from time to time re<g ref="char:EOLhyphen"/>quire, that they have no power to tie their own hands by ſuch Agreement as is alledged, nor can be bound by any other power then that by which they have their power, an Act of Parliament.</p>
+            <p n="5">5. Fifthly they urged, That the Works for the Reco<g ref="char:EOLhyphen"/>very of the drowned lands were not perfected; and therefore the Arguments uſed for equal ſcotting of the lands for Preſervation, were not of force till the Works were finiſhed. And they did inſtance in the Charge beſtowed upon <hi>Blackwall,</hi> and the new laying of the Sluce which formerly lay at <hi>Thorney Wall.</hi>
+            </p>
+            <p>To which it was anſwered, That both by the Letter, Intention, and Equity of the before-mentioned Award, and Decree thereupon made, the whole Charge of the Works and Indraught in <hi>Witterſham</hi> Level ſhould have been born at an equal rate of Scotts, and much more all future Works, if any remained unperfected.</p>
+            <p>It was further anſwered, That Nature it ſelf had forced her way for Recovery of the drowned lands ſe<g ref="char:EOLhyphen"/>veral years before the Works were perfected, and the Sea let into the Indraught, and that <hi>Blackwall</hi> was made upon the Preſentment of Jurors and Reports of Com<g ref="char:EOLhyphen"/>miſſioners, after Views taken for Information of the Commiſſioners, aſwell to preſerve the Upper Levels from being ſurrounded with Salt water, which dayly in<g ref="char:EOLhyphen"/>creaſed upon them as in hopes to recover 600 acres of land for which there was a great Rent paid to the Own<g ref="char:EOLhyphen"/>ers
+<pb n="19" facs="tcp:34392:12"/>thereof by the Upper Levels, and for preſervation of the other High-lands of <hi>Witterſham;</hi> and as for the new laying of the Sluce at <hi>Thorney Wall,</hi> they were not ſo well adviſed to inſtance upon that, being only for the preſervation of <hi>Sherley Moor,</hi> and the other Sommer-lands, and the Intereſt of the drowned lands not at all concerned therein.</p>
+            <p n="6">6. Sixthly they ſhewed, That there was a Debt ow<g ref="char:EOLhyphen"/>ing by the Countrey, the greateſt part whereof had been due divers years: And therefore no Reaſon that the Sommer-lands ſhould be equally ſcotted with the drowned lands towards the payment of that Debt.</p>
+            <p>To that it was anſwered, That ſuch Debt did grow due long ſince 1627. and was not the twentieth part of that charge which ſince that time ſhould have been born at an equal rate of ſcotts in performance of the Award and Decree before-mentioned.</p>
+            <p>It was further anſwered, That no part of that Debt did grow by Works done for the Recovery of the drowned lands, thoſe lands being perfectly drained ma<g ref="char:EOLhyphen"/>ny years before, but was contracted by means of the Sea (which was firſt let the Low-lands of <hi>Witter<g ref="char:EOLhyphen"/>ſham,</hi> chiefly in the Intereſt of the Sommer-lands) his breaking into a great part of the High-lands of <hi>Witter<g ref="char:EOLhyphen"/>ſham,</hi> whereby there hath near 1400 <abbr>l.</abbr> 
+               <hi>per Annum</hi> been added to the great Rent which the Countrey formerly paid, and by making new inſet Walls of a very great charge to preſerve the other high Lands there from be<g ref="char:EOLhyphen"/>ing drowned in like manner. And if the drowned lands ſhould continue ſcotted at theſe unequal rates till that debt were paid, it were the ſame to the Owners of the drowned lands, as if they ſhould be ſo ſcotted for ever; For at the proportions they are now ſcotted, the whole
+<pb n="20" facs="tcp:34392:13"/>Rent of their lands doth hardly pay the yearly charge that lies upon them, and conſequently can never wear out the debt.</p>
+            <p n="7">7. Seventhly, They excepted againſt the Referrees, that they having already declared themſelves in the Re<g ref="char:EOLhyphen"/>port, ſhould ſit as Judges, and give their votes therein.</p>
+            <p>To which it was anſwered, That certainly they were not the more like to be partial, or any way unfit to ſit as Judges; for having taken pains to view the lands in the ſeveral Levels, and by all ways and means to in<g ref="char:EOLhyphen"/>form themſelves of the merits of the Cauſe, no more then in the Parliament, the Committees of any Bill, or other Buſineſs, are thought the leſs fit to give their Voices, for having firſt debated, digeſted, and reported the Cauſe to the Houſe. This Exception therefore ſeemed ſomewhat ſtrange, it being the firſt that ever was known to any there to be taken of that kinde; and thoſe Gentlemen themſelves having often been Refer<g ref="char:EOLhyphen"/>rees, and given their Votes in the ſame Cauſe.</p>
+            <p n="8">8. Eighthly they urged, That the ſommer-lands were onely to be preſerved, and were then as much worth to be lett by the year, as now they are. The deep drowned lands being nothing worth, were to be recovered, and preſerved, and therefore no reaſon they ſhould be Scotted at equal rates.</p>
+            <p>This was conſented to be true at ſuch time as the firſt joynt Commiſſion was taken out for all the ſaid Le<g ref="char:EOLhyphen"/>vels; and upon theſe grounds the Commiſſioners did then think it equall, and accordingly decreed, that the Sommer-lands ſhould be ſcotted but after the rate of ſour pence, the deep drowned lands after twelve pence the Acre to every ſcott; but now, that the deep drown<g ref="char:EOLhyphen"/>ed lands were many years ſince recovered, and become
+<pb n="21" facs="tcp:34392:13"/>fully as ſafe from future decay as the Sommer-lands, that ſuch recovery hath coſt the Owners of thoſe lands more then double the value of the Inheritance of them, the Sommer-lands having been all that time preſerved, and the Owners of them receiving yearly ſixteen or eighteen ſhillings the Acre above all ſcotts; now that the heavie charge lying upon thoſe lands, is onely for preſervation, wherein <hi>Sherley Moor,</hi> and the reſt of the late decaying Sommer lands are more then equally in<g ref="char:EOLhyphen"/>tereſſed with them, and for whoſe preſervation the Sea was neceſſarily let into <hi>Witterſham</hi> Level, which hath produced this great charge; now for them to be continued at the former unequal rates of twelve pence, and four pence, whereby the deep drowned lands, though drained of water, are ſtill drowned in charge, paying more in Scotts then their yearly Rent amounteth unto, this ſeemed very unequall to all the Commiſſioners not intereſſed.</p>
+            <p n="9">9. They alledged, that they had little or no benefit by the Works, nor the yearly Rents of their lands thereby improved; that by the words of the Statute, all lands are to be ſcotted according to the benefit they receive; and therefore ſince the benefit was little, the ſcots might not be great.</p>
+            <p>To this it was anſwered, That about fourty years ſince, when the general Works were firſt undertaken, and the Levels of <hi>Sherley Moor,</hi> and <hi>Ebony</hi> joyned in one Commiſſion with the reſt, the Preamble in every Decree recites, that there were ſo many Acres of land drowned Winter and Sommer, ſo many Acres, <hi>viz. Sherley Moor,</hi> and the reſt, which were drowned in the Winter, and drie in the Sommer, but in danger of fur<g ref="char:EOLhyphen"/>ther decay, and to become drowned and loſt lands;</p>
+            <pb n="22" facs="tcp:34392:14"/>
+            <p> Laſtly, The firſt general Works which were underta<g ref="char:EOLhyphen"/>ken after ſuch conjunction of all the ſaid Levels in one Commiſſion, were the Indraughts at <hi>Peening</hi> and <hi>Ebony,</hi> which were undertaken upon Preſentment of Jurors and Views of Commiſſioners; and the Decree for the ſaid Works, is extant upon Record (whereof the Animad<g ref="char:EOLhyphen"/>verter had a Copy long ſince) bearing date the 17<hi rend="sup">o</hi> 
+               <hi>Au<g ref="char:EOLhyphen"/>guſt</hi> 13. <hi>Iac.</hi> In which Decree, nor in any ſubſequent Decree, there is not any mention made of any ſuch pre<g ref="char:EOLhyphen"/>vious Agreement, which without all doubt would not have been omitted, if any ſuch had been, the ſame be<g ref="char:EOLhyphen"/>ing of ſuch conſequence to Poſterity. And now do your Lordſhips judge of the Animadverters confidence, and groundleſs aſſerting that Agreement, both in the Epiſtle Dedicatory, and Animadverſions.</p>
+            <p>And in Caſe any ſuch Agreement had been, the ſame extended only to <hi>Sherley Moore;</hi> and then I know not why all the other lands within the limits of the Commiſ<g ref="char:EOLhyphen"/>ſion, ſhould not be equally ſcotted for their preſervation, according to the Cuſtome of <hi>Romney</hi> Marſh, ſo much urged at the late Seſſion, as cauſed the Jurors to alter their exhibited preſentment; Or if notwithſtanding the ſaid Cuſtome, the ſame ſommer-lands in <hi>Farnhill, Dom<g ref="char:EOLhyphen"/>barn, Witterſham,</hi> and <hi>Kentchill</hi> (which cannot pretend to any ſuch Agreement, being included within the Com<g ref="char:EOLhyphen"/>miſſion for the Upper Levels, before the conjunction with <hi>Sherley Moor</hi>) ſhall continue ſcotted at four pence <hi>per</hi> Acre, and the late drowned lands at twelve pence <hi>per</hi> Acre (which injoy only the benefit of preſervation, as the other lands do) but that then the diſproportion of ſcots between the late drowned lands tendered by the Ju<g ref="char:EOLhyphen"/>rors, in concurrence with the Opinion of the two Lord Chief Juſtices, touching the caſualties and uncerteinties
+<pb n="23" facs="tcp:34392:14"/>of lands, ought to have been eſtabliſhed; which I ſub<g ref="char:EOLhyphen"/>mit to your Lordſhips judgements.</p>
+            <p n="3">3. The third matter in difference, is, Whether the Marſh-lands in <hi>Redhill, Appledore,</hi> and <hi>Stone,</hi> ſhall be diſcharged from bearing any part of the charge of the ſaid Indraught, their common Outfall to the Sea, which was many years ſince in apparent danger to be loſt, ha<g ref="char:EOLhyphen"/>ving thereby been reſtored and preſerved.</p>
+            <p>In Anſwer whereunto, I muſt firſt let your Lordſhips know, That by the Law and Rule of Sewers, All lands ſewing into a Common Outfall, which is maintained at a general Charge, ought to contribute thereunto, and can<g ref="char:EOLhyphen"/>not be exempted from the charge thereof in <hi>Toto,</hi> if they may in <hi>Tanto.</hi>
+            </p>
+            <p>That thoſe lands have received benefit by the Works and Indraughts in <hi>Witterſham</hi> Level, is demonſtrated, For that <hi>Walland</hi> Marſh, whoſe waters iſſue into the ſame Channel 4 or 5 miles nearer the Sea, then moſt of thoſe lands, and conſequently had a greater fall, and better Sew<g ref="char:EOLhyphen"/>er, have received benefit thereby, and do contribute to the charge thereof; which by Agreement with the Up<g ref="char:EOLhyphen"/>per Levels, they were not to do until ſuch time as their Sewer was bettered by the ſaid Works, and are to con<g ref="char:EOLhyphen"/>tribute during the continuance thereof, and not after. And further, the Animadverter, <hi>fol.</hi> 55. hath ſet forth a Preſentment of Jurors, pretended to be made in <hi>Auguſt,</hi> 1635. whereby it was preſented (as he alledgeth) That if the ſea were not ſpeedily let into the Low-lands of <hi>Witterſham,</hi> it would be prejudicial to the Sewers of all the lands that ſewed into the River of <hi>Rother.</hi> And I likewiſe deſire your Lordſhips to obſerve, That this ſuppoſed Preſentment was at ſuch time, when Sir <hi>Walter Roberts,</hi> and other Owners of the drowned lands, oppo<g ref="char:EOLhyphen"/>ſed
+<pb n="24" facs="tcp:34392:15"/>the letting of the ſea into <hi>Witterſham</hi> Indraught; at moſt of which tranſactions I was preſent, and viewed the then deſperate decay of the Sewer of the ſommer-lands, which iſſued their water by <hi>Thorney</hi> Sluce, howbeit the late drowned lands were then perfectly drai<g ref="char:EOLhyphen"/>ned. And by the preſentment of the late Jurors it ap<g ref="char:EOLhyphen"/>pears, That the preſervation of the Outfall at <hi>Thorney</hi> Sluce is neceſſary for the well ſewing of the ſame lands in <hi>Redhill, Appledore,</hi> and <hi>Stone,</hi> yet they are thereby ex<g ref="char:EOLhyphen"/>empted from bearing any part of the charge of <hi>Witter<g ref="char:EOLhyphen"/>ſham</hi> Indraught, whereby that Outfall is, and for many yeers hath been preſerved. And your Lordſhips by per<g ref="char:EOLhyphen"/>uſing the Decree herein ſet forth, may obſerve the fair and civil reſpect which the then Commiſſioners ſhewed unto the Owners of thoſe lands.</p>
+            <floatingText xml:lang="eng" type="decree">
+               <body>
+                  <head>
+                     <hi>A Seſsion of Sewers holden at</hi> Sandhurſt, <hi>on Thurſday the third day of</hi> September, 1646.</head>
+                  <p>WHereas at the Seſſion of Sewers holden at <hi>Tenter<g ref="char:EOLhyphen"/>den,</hi> the 27th day of May, 1645. <hi>William Pix,</hi> Gent. and others his fellow-Jurors, did preſent, That there are by eſtimation, a 1000 Acres of high Marſh-lands, lying within the limits of the ſaid Commiſſion, which have received benefit and ſecurity by the works upon the River of <hi>Rother,</hi> and have not yet been ſcotted thereunto. They did think fit the ſame ſhould be admea<g ref="char:EOLhyphen"/>ſured and ſcotted for the future, ratably with the lands in <hi>Sherley Moor,</hi> as ſommer-lands, unto all generall works upon the River of <hi>Rother.</hi> And whereas at the Seſſion of Sewers holden at <hi>Tenterden,</hi> the 10th day of <hi>June</hi> 1645. it was Ordered and Decreed, That <hi>William Powel</hi> Gent. ſhould write unto Sir <hi>Edward Hales,</hi> Knight
+<pb n="25" facs="tcp:34392:15"/>and Baronet; to the heirs of Sir <hi>Walter Covert;</hi> to the Dean and Chapter of Chriſt Church Cant, and <hi>George Chewte</hi> 
+                     <abbr>Eſq</abbr> or the Tenants of their lands, ſewing into the River of <hi>Rother,</hi> or Channel of <hi>Appledore,</hi> to ſhew cauſe at the next Seſſions of Sewers, to be holden at <hi>Ten<g ref="char:EOLhyphen"/>terden</hi> on Thurſday the ſecond day of <hi>September</hi> next, Why their ſaid lands that have not paid ſcots to the works upon the ſaid River of <hi>Rother,</hi> ſhould not from thenceforth be ſcotted and taxed thereunto, proportio<g ref="char:EOLhyphen"/>nable to the benefit or ſecurity they have, or ſhould re<g ref="char:EOLhyphen"/>ceive thereby, and according to the before recited pre<g ref="char:EOLhyphen"/>ſentment, by the Jury in that behalf made; And where<g ref="char:EOLhyphen"/>as the ſaid <hi>William Powell</hi> did ſend accordingly; And whereas at the Seſſions of Sewers, holden at <hi>Tenterden</hi> the ſecond day Of <hi>September,</hi> 1645. it was alledged, by Sir <hi>Cheyney Culpeper,</hi> Knight, on the behalf of himſelf and others, That when the Owners of <hi>Sherley Moor,</hi> and <hi>Newenden</hi> Level, with others, did joyn in one Commiſſi<g ref="char:EOLhyphen"/>on, it was then generally agreed on, That the ſaid high Marſh-lands ſhould be exempted from all general ſcots towards the ſaid works. And foraſmuch as the ſaid A<g ref="char:EOLhyphen"/>greement was not then produced, it was therefore Orde<g ref="char:EOLhyphen"/>red and Decreed, That the ſaid parties ſhould have time given them to produce the ſaid agreement, till the next General Seſſions of Sewers, to be holden at <hi>Tenterden</hi> in <hi>Whitſon</hi> week. And whereas at the Seſſions of Sewers, holden at <hi>Tenterden</hi> the 26th day of <hi>May,</hi> 1646, the afore<g ref="char:EOLhyphen"/>ſaid Agreement was not produced, but further day was deſired for the ſame. And that it was then Ordered and Decreed, That further Order ſhould be given to the ſaid parties to produce the ſame, or ſuch reaſon as ſhould be adjudged ſufficient for exemption of the ſaid lands, until this preſent Seſſions; And whereas at this preſent
+<pb n="26" facs="tcp:34392:16"/>Seſſions now holden, the aforeſaid Agreement was not produced, nor any ſufficient reaſon ſhewed for exempti<g ref="char:EOLhyphen"/>on. Upon ſerious and due conſideration of the premiſes, by the Commiſſioners now preſent, It is now Ordered and Decreed, That the aforeſaid lands from henceforth, be ſcotted and ta<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ed to the general works upon the River of <hi>Rother,</hi> in ſuch proportion as in the preſentment is ſet forth, <hi>viz.</hi> according to the proportion of <hi>Sherley Moor,</hi> at four pence <hi>per</hi> Acre; And that Mr. <hi>Thomas Huckſtep,</hi> and <hi>Stephen Curtis,</hi> jointly and ſeverally, be Water-Bay<g ref="char:EOLhyphen"/>liffs of the ſaid lands, to be admeaſured with a 16 foot and a half pole, and charged in the Scot-book accord<g ref="char:EOLhyphen"/>ingly.</p>
+                  <closer>
+                     <signed>Subſcribed by
+<list>
+                           <item>
+                              <hi>Tho. Peirs.</hi>
+                           </item>
+                           <item>
+                              <hi>Tho. Bromfield.</hi>
+                           </item>
+                           <item>
+                              <hi>Peter Farnden.</hi>
+                           </item>
+                           <item>
+                              <hi>Samuel Curtis.</hi>
+                           </item>
+                           <item>
+                              <hi>George Iackſon.</hi>
+                           </item>
+                           <item>
+                              <hi>Iohn Henden.</hi>
+                           </item>
+                           <item>
+                              <hi>Iohn Fowle.</hi>
+                           </item>
+                           <item>
+                              <hi>Iohn Auſten.</hi>
+                           </item>
+                           <item>
+                              <hi>Thomas. Collins.</hi>
+                           </item>
+                           <item>
+                              <hi>Thomas Iorden.</hi>
+                           </item>
+                           <item>
+                              <hi>Iohn Buſbridge.</hi>
+                           </item>
+                           <item>
+                              <hi>Roger Shoyſwel.</hi>
+                           </item>
+                           <item>
+                              <hi>William Boys.</hi>
+                           </item>
+                           <item>
+                              <hi>Natha. Powel.</hi>
+                           </item>
+                        </list>
+                     </signed>
+                  </closer>
+               </body>
+            </floatingText>
+            <p n="4">4. The fourth matter in difference, is, Whether lands formerly drowned, and paid equally for their re<g ref="char:EOLhyphen"/>covery, being recovered, part of thoſe lands are worth 25. <abbr>s.</abbr> 
+               <hi>per</hi> Acre, other part of them but 15. <abbr>s.</abbr> 
+               <hi>per</hi> Acre, (by reaſon of caſualties) ſhall continue equally ſcotted for works of preſervation only, when as their reſpective benefits thereby, are ſo different and diſproportionate?</p>
+            <p>In anſwer whereunto, I preſume to let your Lord<g ref="char:EOLhyphen"/>ſhips know, That by the Queries and Anſwers thereun<g ref="char:EOLhyphen"/>to, ſubſcribed by the two Lord Chief Juſtices, ſet forth in my <hi>Summary Relation, fol.</hi> 23. (which may be an ade<g ref="char:EOLhyphen"/>quate Rule in the proportioning of all ſcots) it appears,
+<pb n="27" facs="tcp:34392:16"/>That by the Law, Caſualties, and Incertainties of profit by the works, are to be conſidered in the proportioning of ſcots upon thoſe lands, with other of better condition.</p>
+            <p>That there are ſuch Caſualties, Incertainties, and dif<g ref="char:EOLhyphen"/>ference in values between ſome of the late drowned lands, appeared to the late Jurors upon their View, was proved unto them upon Oath, &amp; will be further proved by ſeve<g ref="char:EOLhyphen"/>ral Teſtimonies when thereunto required. But it being objected, That by the Cuſtome of <hi>Romney</hi> Marſh, all lands (good and bad) pay equally for maintenance of <hi>Dymchurch</hi> Wall, which is for their preſervation. The Jurors who had before tendered their preſentment, That thoſe Caſual lands ſhould pay and be taxed at two third parts, and no more, which the other drowned lands of the better condition, withdrew the ſame, and after preſen<g ref="char:EOLhyphen"/>ted all the ſaid drowned lands to be equally ſcotted. And yet notwithſtanding the ſaid cuſtome, did preſent the ſommer-lands to be taxed but at one third part with the late drowned lands, when as all the ſaid lands (as appear<g ref="char:EOLhyphen"/>eth by the ſame Preſentment) have preſervation only by the ſaid works; which I refer to your Lordſhips conſi<g ref="char:EOLhyphen"/>deration.</p>
+            <p>My Lords,</p>
+            <p>I ſhall not trouble your Lordſhips, nor my Self, with a reply to all the fallacies, Errours and miſtakes, ſet forth in thoſe Animadverſions, but ſhall only make ſome Obſervations upon two or three of them, that your Lord<g ref="char:EOLhyphen"/>ſhips may the better judge of the reſt.</p>
+            <p>Firſt, the Animadverter tells your Lordſhips, <hi>ſol.</hi> 67. That all ſcots granted between <hi>March,</hi> 1627. and <hi>Sep<g ref="char:EOLhyphen"/>tember,</hi> 1633. were granted according to the Decree of the 11th of <hi>March,</hi> 1627. and inferrs, that the ſame De<g ref="char:EOLhyphen"/>cree was not ſmothered or concealed, for that it was
+<pb n="28" facs="tcp:34392:17"/>confirmed depending the Treaty with the Committees of <hi>Witterſham</hi> Level, and yet with confidence affirms in ſeveral places of his Animadverſions, That it was not then intended that the Works and Indraught in <hi>Witter<g ref="char:EOLhyphen"/>ſham</hi> Level, (then in Treaty) ſhould be borne at an equal rate of ſcots, according to the ſaid Decree, whereas if it had been otherwiſe intended, that Decree of Confirmati<g ref="char:EOLhyphen"/>on had been vain and ſuperfluous. And your Lordſhips may be pleaſed to take notice, That ſuch Decree of Confirmation, was made before the deceaſe of <hi>Thomas Dike,</hi> Eſquire, who ſigned that Decree of the 11th of <hi>March;</hi> was privy and party to all the proceedings which induced the ſame, ſo that it could not then be con<g ref="char:EOLhyphen"/>cealed. But Mr. <hi>Dike</hi> dying in the year, 1632. having ſurvived <hi>Nicholas,</hi> late Earl of <hi>Thanet, Laurence Peirs, Iohn Bromfield,</hi> Eſquires, and ſeveral other Owners of the drowned lands, who were likewiſe privy to thoſe pro<g ref="char:EOLhyphen"/>ceedings, and leaving all their Heirs very young, and wholly ignorant thereof, The ſaid Decree of the 11th of <hi>March,</hi> was never afterwards Confirmed, but ſo far ſmothered and concealed, as that when thoſe Decrees of the 5th of <hi>September,</hi> 1633. the 27th of <hi>October,</hi> 1637. the 4th of <hi>Iune,</hi> 1639. and the 3d of <hi>Iune,</hi> 1640. were ſigned by the Commiſſioners then preſent, by which the ſcots were again reduced to the diſproportions of twelve pence and four pence, I was preſent alſo, and often peruſed all the Records and Decrees brought to any of thoſe Seſſions; yet by ſuch peruſal of them, or by any debate or diſcourſe of the Commiſſioners, could never diſcover that Decree of the 11th of <hi>March,</hi> or the Decree for Confirmation thereof, till many years after, when Sir <hi>Thomas Culpeper,</hi> the Animadverters Grand<g ref="char:EOLhyphen"/>father, acquainted me therewith; And further, the ſaid
+<pb n="29" facs="tcp:34392:17"/>Sir <hi>Thomas Culpeper,</hi> then whom no man was more active for the Intereſt of the ſommer-lands, nor better acquaint<g ref="char:EOLhyphen"/>ed with the tranſactions of thoſe times, affirmed publick<g ref="char:EOLhyphen"/>ly at a Seſſion of Sewers in the preſence of neer thirty Commiſſioners, That the Owners of the ſommer-lands had not then when the ſcots were ſo reduced to the for<g ref="char:EOLhyphen"/>mer diſproportions of twelve pence and four pence, ſo much confidence of the Juſtice or Honour thereof, as to acquaint any one Owner of the drowned lands not inte<g ref="char:EOLhyphen"/>reſſed in the ſommer-lands, how the buſineſs of ſcotting was ſetled in <hi>March</hi> 1627. and then demand his conſent for reducing them to the former diſproportions.</p>
+            <p>And your Lordſhips may be pleaſed to take notice of another fallacy ſet forth in the Epiſtle Dedicatory, and ſeveral places of the Animadverſions, <hi>viz.</hi> That in the yeer, 1637. by Decree of Sewers, with the full and free conſent of the Commiſſioners and Owners, as well for the Intereſt of the ſommer-lands, as the drowned lands, all things relating to the ſaid Works and Rates of ſcot<g ref="char:EOLhyphen"/>ting the lands towards the charge thereof, were unani<g ref="char:EOLhyphen"/>mouſly agreed to, and confirmed, and the Rates of twelve pence the Acre for the drowned lands, and four pence the Acre for the ſommer-lands, for all works in <hi>Witter<g ref="char:EOLhyphen"/>ſham</hi> Level, and one yeerly ſcot of twelve pence the Acre, for the Sluce and Works upon the old Channel; O <hi>monſtrum, horrendum;</hi> For were that Decree printed with the Animadverſions, it would therein have clearly appeared to your Lordſhips, That neither the Sluce, or Works in the old Channel, are once mentioned, or ſo much as intimated in any part of that large Decree; and that thoſe words (full and free conſent of the Owners, <hi>&amp;c.</hi>) have no relation or influence to the granting or proportioning of ſcots (as is pretended) for diſcharge
+<pb n="30" facs="tcp:34392:18"/>of the Works, Rents, and other Charges occaſioned by the ſaid Indraught; but thoſe ſcots are granted and pro<g ref="char:EOLhyphen"/>portioned by a Decree diſtinct from the other Decrees, and without any ſuch Preface of full and free conſent, <hi>&amp;c.</hi> And Sir <hi>Thomas Culpeper</hi> who was party to, and preſent at the making of that Decree, declared (as before is ſet forth) what full and free conſent was given thereunto by the Owners of the drowned lands; And your Lordſhips may further take notice, That the proportion of ſcotting was before that time, reduced to twelve pence and four pence, by Decree of Sewers made the 5th of <hi>September,</hi> 1633. wherein there are not any words of full and free conſent, nor is it pretended by the Animadverter, that there are any ſuch: And further, that of nine Commiſſi<g ref="char:EOLhyphen"/>oners who ſigned that Decree of 1637, onely one of them (and he was wholly ignorant of the ſaid Decree of 1627.) had any Intereſt in the drowned lands, other then ſuch who had likewiſe ſuch intereſt in the ſommer lands, as thoſe diſproportions were for their advantage; That the Decree of the 5th of <hi>September,</hi> 1633. was ſigned by ten Commiſſioners, of whom one onely had ſuch intereſt in the drowned lands, as rendered thoſe diſproportions to his diſadvantage; That of eight Commiſſioners who ſigned the Decree of <hi>June</hi> the 4th 1639. there was not any one of them but had a benefit by thoſe diſproporti<g ref="char:EOLhyphen"/>ons, and ſix of them were not at all intereſſed in the drowned lands; And that of twelve Commiſſioners, who ſigned the Decree of <hi>June</hi> the 4th 1640. there were onely three that had any Intereſt in the drowned lands, of whom Mr. <hi>Gibbon</hi> and my Self, were two, (neither of us then having any knowledge of the Decree of <hi>March,</hi> 1627.) the third was the late Lord <hi>Culpeper,</hi> who I beleeve was then likewiſe ignorant of that Decree; nor can the Ani<g ref="char:EOLhyphen"/>madverter
+<pb n="31" facs="tcp:34392:18"/>make it appear that he knew thereof; but howſoever, his Intereſt in the ſommer-lands was ſuch, as that thoſe diſproportions redownded to his Lordſhips benefit. Neither can I find upon peruſal of the Decrees, That at any Seſſion of Sewers holden for the ſaid Levels, from, 1632. till 1645. there were ever three Commiſſi<g ref="char:EOLhyphen"/>ons preſent, who had not ſuch Intereſt in the ſommer-lands, (if Owners) but that thoſe diſproportions accru<g ref="char:EOLhyphen"/>ed to their profit, the Owners of the ſommer-lands had ſo wiſely provided for their Intereſt at the renewing of that Commiſſion, which for your Lordſhips ſatisfacti<g ref="char:EOLhyphen"/>on therein, will fully appear to your Lordſhips, by peruſing the Commiſſioners names, impowred by the Commiſſion of thoſe times which I have hereunto an<g ref="char:EOLhyphen"/>nexed, moſt of whom with their Intereſts and Relations, are well known to your Lordſhips, <hi>viz.</hi>
+            </p>
+            <list>
+               <item>
+                  <hi>Thomas</hi> Lord <hi>Coventry,</hi> L. Keeper, <hi>&amp;c.</hi>
+               </item>
+               <item>
+                  <hi>Philip</hi> Earl <hi>of Pemb.</hi> &amp; <hi>Mountgom, &amp;c.</hi>
+               </item>
+               <item>
+                  <hi>Theophilus</hi> Earl of <hi>Suſſ.</hi> Warden, <hi>&amp;c.</hi>
+               </item>
+               <item>
+                  <hi>Edward</hi> Earl of <hi>Dorſet,</hi> Chamb. <hi>&amp;c.</hi>
+               </item>
+               <item>
+                  <hi>Robert</hi> Earl of <hi>Leiceſter</hi>
+               </item>
+               <item>
+                  <hi>Mildmay</hi> Earl of <hi>Weſtmorland</hi>
+               </item>
+               <item>
+                  <hi>Thomas</hi> Earl of <hi>Winchelſea</hi>
+               </item>
+               <item>
+                  <hi>John</hi> Earl of <hi>Thannet</hi>
+               </item>
+               <item>
+                  <hi>Henry</hi> Lord <hi>Abergavenay</hi>
+               </item>
+               <item>
+                  <hi>Francis</hi> Lord <hi>Deere</hi>
+               </item>
+               <item>Sir <hi>Henry Vane,</hi> Knight, Treaſu. <hi>&amp;c.</hi>
+               </item>
+               <item>Sir <hi>Joh. Finch,</hi> Knight, Chief Juſt. <hi>&amp;c.</hi>
+               </item>
+               <item>Sir <hi>Edward Henden,</hi> Knight, one of the Barons, <hi>&amp;c.</hi>
+               </item>
+               <item>Sir <hi>George Fane,</hi> Knight</item>
+               <item>Sir <hi>Thomas Pelham,</hi> Baronet</item>
+               <item>Sir <hi>John Shelley,</hi> Knight and Baronet</item>
+               <item>Sir <hi>John Baker,</hi> Baronet.</item>
+               <item>Sir <hi>Henry Sedley,</hi> Baronet</item>
+               <item>
+                  <list>
+                     <head>Kn<hi rend="sup">ts</hi> and Baronets</head>
+                     <item>Sir <hi>Rog. Twiſden</hi>
+                     </item>
+                     <item>Sir <hi>Edward Hales</hi>
+                     </item>
+                     <item>Sir <hi>Walter Roberts</hi>
+                     </item>
+                     <item>Sir <hi>Joh. Sidley</hi> of Wroatham</item>
+                     <item>Sir <hi>Edw. Deering</hi>
+                     </item>
+                  </list>
+               </item>
+               <item>Sir <hi>Michael Liveſey,</hi> Baronet</item>
+               <item>Sir <hi>Thomas Peirs,</hi> Baronet</item>
+               <item>Sir <hi>Ralph Whitfield,</hi> Knight, one of the Kings Serjeants at Law</item>
+               <item>Sir <hi>Geo. Saadis,</hi> Knight of the Bathe</item>
+               <item>Sir <hi>Henry Guilford</hi>
+               </item>
+               <item>Sir <hi>Francis Barnham</hi>
+               </item>
+               <item>Sir <hi>Thomas Hendly</hi>
+               </item>
+               <item>Sir <hi>Peter Hayman</hi>
+               </item>
+               <item>Sir <hi>Alexander Culpeper of Sedgbury</hi>
+               </item>
+               <item>Sir <hi>Humphry Tufion</hi>
+               </item>
+               <item>Sir <hi>Robert Darrell.</hi>
+               </item>
+               <item>Sir <hi>Thomas Parker</hi>
+               </item>
+               <item>Sir <hi>Robert Filmer</hi>
+               </item>
+               <item>Sir <hi>John Honywood</hi>
+               </item>
+               <item>Sir <hi>Thomas Culpeper</hi>
+               </item>
+               <item>Sir <hi>Thomas Springate</hi>
+               </item>
+               <item>Sir <hi>John Culpeper.</hi>
+               </item>
+               <item>Sir <hi>John Hales</hi>
+               </item>
+               <item>Sir <hi>Robert Honywood</hi>
+               </item>
+               <item>Sir <hi>Anthony St. Leger</hi>
+               </item>
+               <item>Sir <hi>Robert Honywood</hi> younger</item>
+               <item>Sir <hi>Cheney Culpeper,</hi> Knight</item>
+               <item>Sir <hi>Robert Foſter,</hi> Serjeant at Law</item>
+               <pb n="32" facs="tcp:34392:19"/>
+               <item>The Dean of <hi>Canterbury</hi> for the time being</item>
+               <item>
+                  <hi>Samuel Short</hi>
+               </item>
+               <item>
+                  <hi>Thomas Covert</hi>
+               </item>
+               <item>
+                  <hi>John Mun</hi>
+               </item>
+               <item>
+                  <hi>Robert Burnham</hi>
+               </item>
+               <item>
+                  <hi>Anthony St. Leger</hi>
+               </item>
+               <item>
+                  <hi>William Clarke</hi>
+               </item>
+               <item>
+                  <hi>Robert Wildigos</hi>
+               </item>
+               <item>
+                  <hi>Edward Chute</hi>
+               </item>
+               <item>
+                  <hi>Norton Knachbull</hi>
+               </item>
+               <item>
+                  <hi>Lawrence Aſhburnham</hi>
+               </item>
+               <item>
+                  <hi>William Cage</hi>
+               </item>
+               <item>
+                  <hi>Ralph Freak</hi>
+               </item>
+               <item>
+                  <hi>John Henden</hi>
+               </item>
+               <item>
+                  <hi>William Boys</hi>
+               </item>
+               <item>
+                  <hi>Edward Partheridge</hi>
+               </item>
+               <item>
+                  <hi>Thomas Fludd</hi>
+               </item>
+               <item>
+                  <hi>John Fag</hi>
+               </item>
+               <item>
+                  <hi>John Thetcher</hi>
+               </item>
+               <item>
+                  <hi>John Alford</hi>
+               </item>
+               <item>
+                  <hi>John Argall</hi>
+               </item>
+               <item>
+                  <hi>Richard Porter</hi>
+               </item>
+               <item>
+                  <hi>Robert Moyle</hi>
+               </item>
+               <item>
+                  <hi>Nicholas Toke</hi>
+               </item>
+               <item>
+                  <hi>Henry Criſp</hi>
+               </item>
+               <item>
+                  <hi>John Theobald</hi>
+               </item>
+               <item>
+                  <hi>Nicholas St. Iohn</hi>
+               </item>
+               <item>
+                  <hi>Thomas Dike</hi>
+               </item>
+               <item>
+                  <hi>Martin Shepherd</hi>
+               </item>
+               <item>
+                  <hi>William Culpeper</hi>
+               </item>
+               <item>
+                  <hi>Thomas Godfrey</hi>
+               </item>
+               <item>
+                  <hi>William White</hi>
+               </item>
+               <item>
+                  <hi>Thankfull Frewen</hi>
+               </item>
+               <item>
+                  <hi>George Curtis,</hi> Eſquires</item>
+               <item>
+                  <hi>Q.</hi> The Mayors of <hi>Rye, Winchelſea,</hi> and <hi>Tenterden,</hi> for the time being</item>
+               <item>
+                  <hi>Thomas Short</hi>
+               </item>
+               <item>
+                  <hi>Robert Curtis</hi>
+               </item>
+               <item>
+                  <hi>Edmund Gibbon</hi>
+               </item>
+               <item>
+                  <hi>Joſeph Butcher</hi>
+               </item>
+               <item>
+                  <hi>Richard Donnton</hi>
+               </item>
+               <item>
+                  <hi>Edward Finch</hi>
+               </item>
+               <item>
+                  <hi>Shemaiah Setherſt</hi>
+               </item>
+               <item>
+                  <hi>Nicholas Knight</hi>
+               </item>
+               <item>
+                  <hi>John Meers</hi>
+               </item>
+               <item>
+                  <hi>Edward Maſters of Woodchurch</hi>
+               </item>
+               <item>
+                  <hi>Thomas Scot</hi>
+               </item>
+               <item>
+                  <hi>John Fowle</hi>
+               </item>
+               <item>
+                  <hi>Nathaniel Powell</hi>
+               </item>
+               <item>
+                  <hi>Richard Coberham</hi>
+               </item>
+               <item>
+                  <hi>Robert Bindlos,</hi> Gentlemen</item>
+               <item>
+                  <hi>Q.</hi> The Expenditor of <hi>Romney Marſh.</hi>
+               </item>
+               <item>
+                  <hi>Q.</hi> The Expenditor of the five Wa<g ref="char:EOLhyphen"/>terings</item>
+               <item>
+                  <hi>Q.</hi> The Bayliffs and Expenditor of <hi>Walland Marſh</hi>
+               </item>
+            </list>
+            <p>Out of which number the Animadverter, <hi>fol.</hi> 44. hath ſelected 26 Commiſſioners, whom he conceived (but of a falſe conception) were for the Intereſt of the drowned lands, <hi>viz.</hi>
+            </p>
+            <list>
+               <item>
+                  <hi>Nicholas</hi> late E. of <hi>Thanet.</hi>
+               </item>
+               <item>
+                  <hi>John</hi> Lord <hi>Tufton.</hi>
+               </item>
+               <item>Sir <hi>John Shelley.</hi>
+               </item>
+               <item>Sir <hi>Walter Roberts.</hi>
+               </item>
+               <item>Sir <hi>John Wildegoſs.</hi>
+               </item>
+               <item>Sir <hi>Ralph Boſvile.</hi>
+               </item>
+               <item>Sir <hi>Ale. Culpeper.</hi>
+               </item>
+               <item>Sir <hi>John Fowle.</hi>
+               </item>
+               <item>Sir <hi>Iohn Culpeper.</hi>
+               </item>
+               <item>
+                  <hi>William Shelley.</hi>
+               </item>
+               <item>
+                  <hi>Robert Foſter.</hi>
+               </item>
+               <item>
+                  <hi>Iohn Culpeper.</hi>
+               </item>
+               <item>
+                  <hi>Edward Bromfield</hi>
+               </item>
+               <item>
+                  <hi>William Boys.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Dike.</hi>
+               </item>
+               <item>
+                  <hi>William Culpeper.</hi>
+               </item>
+               <item>
+                  <hi>Ralph Bufkin.</hi>
+               </item>
+               <item>
+                  <hi>Thomas Sands.</hi>
+               </item>
+               <item>
+                  <hi>Richard Porter.</hi>
+               </item>
+               <item>
+                  <hi>Peter Courthope.</hi>
+               </item>
+               <pb n="33" facs="tcp:34392:19"/>
+               <item>
+                  <hi>William White.</hi>
+               </item>
+               <item>
+                  <hi>Thankfull Frewen.</hi>
+               </item>
+               <item>
+                  <hi>Edmond Gibbon.</hi>
+               </item>
+               <item>
+                  <hi>Richard Downton.</hi>
+               </item>
+               <item>
+                  <hi>William Muddle.</hi>
+               </item>
+               <item>
+                  <hi>Ioſeph Benbridge.</hi>
+               </item>
+            </list>
+            <p>In Anſwer whereunto, I muſt acquaint your Lord<g ref="char:EOLhyphen"/>ſhips, That <hi>Nicholas</hi> Earl of <hi>Thanet,</hi> and <hi>Thomas Dike,</hi> Eſquire, were dead before this Commiſſion iſſued, which uſhered in the great oppreſſion which after fell upon the Owners of the drowned lands; That Sir <hi>Ralph Boſvile,</hi> and <hi>Richard Porter,</hi> were wholly intereſſed in the ſom<g ref="char:EOLhyphen"/>mer-lands; That Sir <hi>Iohn Fowle,</hi> and Sir <hi>Iohn Culpeper,</hi> had ſuch Intereſt in the ſommer-lands, as that it was for their advantage to reduce the ſcots unto the diſpro<g ref="char:EOLhyphen"/>portions of twelve pence and four pence; That fourteen of thoſe 26 Commiſſioners, had not then any lands in the ſaid Level, and may not be ſaid to be more for the intereſt of the drowned lands, then ſommer-lands; And that it cannot be made to appear, that at any one time, during the continuance of that Commiſſion, there ap<g ref="char:EOLhyphen"/>peared at any Seſſion of Sewers, more then three Com<g ref="char:EOLhyphen"/>miſſioners of ſuch Intereſt in the drowned lands, as ren<g ref="char:EOLhyphen"/>dered thoſe diſproportions prejudicial unto them. And now do your Lordſhips judge, whether the ſcots were in the yeer 1633. reduced to twelve pence <hi>per</hi> Acre drown<g ref="char:EOLhyphen"/>ed lands, and four pence <hi>per</hi> Acre ſommer-lands, by the full and free conſent of the Owners of the drowned lands, or by the Power and Influence which the Owners of the ſommer-lands had in that Commiſſion. And I deſire your Lordſhips to obſerve, How that the Animadver<g ref="char:EOLhyphen"/>ter doth often affirm, That the ſcots were reduced to thoſe diſproportions, by the full and free conſent of the Owners of the drowned lands, and as often, That it was in purſuance of the pretended previous Agreement. Of which Agreement it ſeems the Grand-children have bet<g ref="char:EOLhyphen"/>ter
+<pb n="34" facs="tcp:34392:20"/>knowledge then their Grandfathers had, whom they pretend to be parties thereunto. From whoſe example the preſent Owners of the ſommer-lands, have for ſeve<g ref="char:EOLhyphen"/>ral years paſt, (as is well known to your Lordſhips) in<g ref="char:EOLhyphen"/>deavoured to procure a Commiſſion for the ſaid Levels, with the like advantages. From what hath been declared, your Lordſhips may Collect what full and free conſent there was of the Owners of the drowned lands, for altera<g ref="char:EOLhyphen"/>tion of the manner of ſcotting, ſo ſolemnly ſetled in 1627. by Award, Conſent, and Decree of Sewers, and which continued till the yeer 1633. and by the expreſs words and intendment of that Decree, (which is ſet down in my remonſtrance, <hi>fol.</hi> 26.) was to be continued for all future works.</p>
+            <p>Which notwithſtanding, the Animadverter, <hi>fol.</hi> 35. with great confidence affirms, That the four learned Lawers, who made that Award did not intend that the ſame ſhould always remain in full force for the equality of ſcots, in caſe the Commiſſioners, as well for the drowned lands as ſommer-lands, upon new undertakings without the limits of their own Commiſſion, ſhould agree amongſt themſelves, and upon that occaſion ſettle other and more equal (though different) proportions ac<g ref="char:EOLhyphen"/>cording to the advantage that the drowned lands and ſom<g ref="char:EOLhyphen"/>mer-lands reſpectively, ſhould have by theſe works; And alſo notwithſtanding a ſet meeting of Commiſſio<g ref="char:EOLhyphen"/>ners for <hi>Romney</hi> Marſh, <hi>Walland</hi> Marſh, <hi>Witterſham</hi> Le<g ref="char:EOLhyphen"/>vel, and the Upper Levels at <hi>Aſhford, September</hi> the 18th 1629. and of ſome of them at ſeveral other times to conſult and agree, At what proportion the new works then propoſed to be done in <hi>Witterſham,</hi> ſhould be paid and borne, and Agreements thereupon made accord<g ref="char:EOLhyphen"/>ingly.</p>
+            <pb n="35" facs="tcp:34392:20"/>
+            <p> To which I anſwer, That the Animadverter hath ſup<g ref="char:EOLhyphen"/>poſed a Caſe (when there was never any ſuch) and then takes it for granted; and hath in the ſame manner pro<g ref="char:EOLhyphen"/>ceeded in moſt of his Arguments ſet down in his Ani<g ref="char:EOLhyphen"/>madverſions, which your Lordſhips will eaſily diſcover on your conſiderate peruſal of them, though my time nor occaſions will not permit me to delineate them to your Lordſhips. And I further anſwer, That neither by the Articles with <hi>Witterſham</hi> Level, nor at the meeting of the Commiſſioners for <hi>Romney</hi> Marſh, <hi>Walland</hi> Marſh, &amp;c. in <hi>September,</hi> 1629. nor at any other time was it pro<g ref="char:EOLhyphen"/>pounded, much leſs agreed, at what Rates and Propor<g ref="char:EOLhyphen"/>tions the Upper Levels ſhould be taxed or ſcotted for the Works and Indraught in <hi>Witterſham</hi> Level; Nor was the ſame the buſineſs of any of thoſe meetings, which were only to conſider in what manner the intended works were to be proceeded in, and what contribution <hi>Romney</hi> Marſh and <hi>Walland</hi> Marſh, ſhould pay towards the ſame, which were agreed upon accordingly: Nor doth the Animadverter make it appear by the Preamble of any Decree, or by any other writing, or by any diſcourſe or conference, That any Owner of the drowned lands, not intereſſed in the ſommer-lands, who knew of the ſaid Decree of the 11th of <hi>March,</hi> ever aſſented, (which is the Agreement controverted, and which the Animad<g ref="char:EOLhyphen"/>verter would <hi>Incognito</hi> croud into other Agreements, whereunto this hath no reference) much leſs formally a<g ref="char:EOLhyphen"/>greed to for himſelf, and others of the ſame intereſt, That for the Works and Indraught in <hi>Witterſham</hi> Level, the ſcots ſhould be again reduced to the former diſpropor<g ref="char:EOLhyphen"/>tions of twelve pence and four pence: Nor that the ſame was otherwiſe effected, then by ſuch advantage of Com<g ref="char:EOLhyphen"/>miſſioners, and other meanes before herein declared.</p>
+            <pb n="36" facs="tcp:34392:21"/>
+            <p> And I further anſwer, That no man can beleeve that the four learned Lawyers who made that Award, or the Commiſſioners who Decreed the ſame, intended that ſuch equality of ſcots ſhould extend only to the works then in being, if he conſider that the matters in diffe<g ref="char:EOLhyphen"/>rence between the Owners of the drowned lands and ſommer-lands being referred unto them, they did upon hearing both parties, draw up the Caſe with the Queries ariſing from the ſame, whereunto both Parties aſſented; one of thoſe Queries being thus, <hi>viz.</hi> If the Indraught in <hi>Woodruff</hi> be left off and not uſed, and other new works of Recovery and Preſervation undertaken, how and by what Rates the Rent ſhall be paid, and the charge of ſuch Works, borne hereafter by the Decrees aforeſaid? There<g ref="char:EOLhyphen"/>upon an Award was made, and Decreed by ſeveral Com<g ref="char:EOLhyphen"/>miſſioners intereſſed in the ſommer-lands, That all ſcots to be granted for all Works thereafter to be done, ſhould be granted and paid equally, as well for the ſommer-lands, as drowned lands.</p>
+            <p>And further, That there were then no works on foot, (as the Animadverter doth acknowledge in his Epiſtle Dedicatory, and elſewhere) which either did or could be pretended to drain the drowned lands, or better their condition, and then for them to Award and Decree, That thoſe lands which were not yearly worth one peny the Acre, ſhould be ſcotted at twelve pence <hi>per</hi> Acre to every ſcot, for ſuch works only as tended to the preſer<g ref="char:EOLhyphen"/>vation of the ſommer-lands (worth twenty ſhillings <hi>per</hi> Acre) had been contrary to all Equity and common Reaſon, if it had not been then intended, that if there ſhould then after any works be undertaken, as well for the recovery of the drowned lands, as preſervation of the ſommer-lands, that they ſhould both join in an equal
+<pb n="37" facs="tcp:34392:21"/>rate of ſcots, according to the ſaid Award and Decree thereupon made, and with the full and free conſent of the Owners of the ſommer-lands. And thus much Sir <hi>Thomas Culpeper,</hi> the Animadverters Grandfather, not many weeks before he died, atteſted under his hand, who being a Party that ſubmitted unto that Award, and joy<g ref="char:EOLhyphen"/>ned in the Decree for Confirmation thereof, could not but know the intent and ſcope thereof much better then his Grandſon, the Animadverter. And the Animad<g ref="char:EOLhyphen"/>verter further informs your Lordſhips, of the good Na<g ref="char:EOLhyphen"/>tures of the Owners of the drowned lands; who not<g ref="char:EOLhyphen"/>withſtanding that they then made it appear, that they would have preſerved themſelves at far eaſier rates then they had done ſince their conjunction with the drowned lands, yet they condeſcended to pay towards thoſe re<g ref="char:EOLhyphen"/>maining works, equally Acre for Acre with the drowned lands, and ſo continued to do till 1633. Of their good Natures therein, I leave to the Judgement of your Lord<g ref="char:EOLhyphen"/>ſhips abundant Charity, upon conſideration of the Pre<g ref="char:EOLhyphen"/>miſes; but I deſire your Lordſhips to take notice, that the Animadverter doth not at all declare or mention by what ways or means the ſame was feazable; and that Sir <hi>Thomas Culpeper,</hi> who was then upon the Place, tells your Lordſhips, that indifferent men can hardly be per<g ref="char:EOLhyphen"/>ſwaded without a Mathematical Demonſtration, that thoſe decaying lands could have found a cheaper way to preſerve and ſecure themſelves, then by joyning with the other Levels.</p>
+            <p>As to that part of the Animadverters Objection, That the Works and Indraught in <hi>Witterſham</hi> Level, are out of the limits of the Commiſſion for the Upper Levels, and concerned <hi>Romney</hi> Marſh and <hi>Walland</hi> Marſh, as well as the Upper Levels, and therefore not intended by the
+<pb n="38" facs="tcp:34392:22"/>Award and Decree thereupon made to be borne at an equal rate of ſcots.</p>
+            <p>I further Anſwer, That the Works and Indraught then being at <hi>Woodruff,</hi> were likewiſe out of the Com<g ref="char:EOLhyphen"/>miſſion for the Upper Levels, <hi>viz.</hi> In <hi>Walland</hi> Marſh, and did concern the Sewers of <hi>Romney</hi> Marſh and <hi>Walland</hi> Marſh, as the Works and Indraught in <hi>Witterſham</hi> now do; and therefore it could not otherwiſe be intended, but that the Charge thereof was to be borne at an equal rate of ſcots.</p>
+            <p>As to that ſcandalous aſperſion which the Animadver<g ref="char:EOLhyphen"/>ter <hi>fol.</hi> 65. hath caſt upon the Commiſſioners and Jurors in 1644. I anſwer, That not any one of theſe Jurors was at ſuch time as he was impanelled, Owner of any lands within the limits of the Commiſſion, as they then ſeverally affirmed upon examination before the Com<g ref="char:EOLhyphen"/>miſſioners, and as then appeared by the Scot-book for that year then produced for better diſcovery thereof; but upon what Grounds or Miſtakes ſome perſons joyn<g ref="char:EOLhyphen"/>ed in that Petition (as Captain <hi>Kedwell,</hi> and others) who were neither Owners nor Farmers of any of the lands therein mentioned, I know not.</p>
+            <p>And as to that other malicious Inſinuation, touching the Clark of the Sewers, and the defacing and withdrawing of Records, I anſwer; That if any ſuch have been, the Animadverter if he know thereof, ought to proſecute the Offenders: I know ſome Records are miſſing, which made againſt the Intereſt of the ſommer-lands (if produ<g ref="char:EOLhyphen"/>ced) which I could never ſee or procure; and that the preſent Clerk, who was ſometime my menial ſervant, was choſen Clerk but in 1652. and the proceedings whereat the Animadverter takes moſt offence, were ſeve<g ref="char:EOLhyphen"/>ral yeers before, when Mr. <hi>William Powell,</hi> a well-wiſher
+<pb n="39" facs="tcp:34392:22"/>to the ſommer-lands, being Farmer unto a conſiderable part thereof, and Tenant unto Sir <hi>Edward Hales,</hi> was Clerk of the Sewers.</p>
+            <p>My Lords,</p>
+            <p>I have neither time or opportunity to make particu<g ref="char:EOLhyphen"/>lar Anſwers to the many malicious Surmiſes and Ca<g ref="char:EOLhyphen"/>lumnies, caſt upon S. <hi>N. P.</hi> by the Animadverter, in every page of thoſe Animadverſions, who the better to blaſt and invalidate whatever ſhould be by him produced or urged, doth not take notice of his Grandfather, or any of his Reaſons or Arguments, who was an Actor in all thoſe tranſactions which paſſed at ſuch time when I was wholly a ſtranger to thoſe Levels, and often decla<g ref="char:EOLhyphen"/>red them, with the Grounds and Reaſons of them, but with oblique reflexions inſinuates them as my Fancies and Conſtructions, grounded only upon <hi>ipſe dixit.</hi> I deſire your Lordſhips to call to mind, That Sir <hi>Thomas Culpeper,</hi> who was the Dean and Chapters Tenant to the High-lands in <hi>Appledore</hi> about fourty yeers, and knew beſt what benefit and ſecurity thoſe lands had received and enjoyed by thoſe works, did joyn (with other Com<g ref="char:EOLhyphen"/>miſſioners) in ſeveral Decrees, whereby thoſe lands are ſcotted to the Works and Indraught in <hi>Witterſham</hi> Level.</p>
+            <p>My Lords,</p>
+            <p>I have hereunto annexed the late preſentment of the Jurors at <hi>Tenterden,</hi> with the Decrees thereupon made, and ſome Obſervations upon both, which I refer to your Lordſhips conſideration.</p>
+            <floatingText xml:lang="eng" type="decree">
+               <body>
+                  <pb n="40" facs="tcp:34392:23"/>
+                  <opener>
+                     <dateline>At a Seſsion of Sewers, holden at <hi>Tenterden</hi> in the County of <hi>Kent,</hi> 
+                        <date>the 16th day of <hi>June,</hi> in the 15th yeer of the Reign of our Sovereign Lord King <hi>Charles</hi> the ſecond, by the Grace of God, of <hi>England, Scotland, France,</hi> and <hi>Ire<g ref="char:EOLhyphen"/>land,</hi> King, Defender of the Faith, <hi>&amp;c.</hi> Anno Dom. 1663.</date> Before Sir <hi>Edward Hales</hi> Baronet, Sir <hi>John Covert,</hi> Knight and Baronet, Sir <hi>Charles Shelley,</hi> Sir <hi>Nathaniel Powel,</hi> Sir <hi>Thomas Peirs,</hi> Baronets, Sir <hi>Anthony An<g ref="char:EOLhyphen"/>cher,</hi> Sir <hi>George Choute,</hi> Knights, <hi>George Porter, Tho<g ref="char:EOLhyphen"/>mas Herlackenden, Edward Hales, John Marten, Tho<g ref="char:EOLhyphen"/>mas Lake, John Middleton, John Horſmonden, Samuel Boys, Ralph Bufkin,</hi> Eſquires, <hi>William Levet. and Wil<g ref="char:EOLhyphen"/>liam Hawes,</hi> Gent. <hi>By Vertue of his Majeſties Commiſsion, bearing date the 15th day of</hi> Auguſt <hi>in the 14th yeer of his ſaid Majeſties Reign.</hi>
+                     </dateline>
+                  </opener>
+                  <p>
+                     <hi>Imprimis,</hi>
+                  </p>
+                  <p>IT is Ordered and Decreed, that the Expenditor of the Upper Levels ſhall out of the firſt moneys he receives for the Countries uſe, pay and diſcharge unto Mr <hi>Wood<g ref="char:EOLhyphen"/>dall,</hi> ſuch Arrears of Tithes, as is due to him from the Upper Levels.</p>
+                  <p>Alſo it is Ordered and Decreed, that the Preſentment of the Jurors of <hi>Kent</hi> and <hi>Suſſex,</hi> Impanelled by us for inquiry, be entred in this book as followeth,; and that all ſcots now and for the future, be granted accordingly.</p>
+               </body>
+            </floatingText>
+            <floatingText xml:lang="eng" type="presentment">
+               <body>
+                  <head>
+                     <hi>KENT</hi> and <hi>S<g ref="char:V">Ʋ</g>SSEX.</hi>
+                  </head>
+                  <head>
+                     <hi>The Preſentment of the Jurors of enquiry, for the Counties of</hi> Kent <hi>and</hi> Suſſex, <hi>before the Commiſsioners of Sewers, at their Seſsions holden at</hi> Tenterden, <hi>the 16th day of</hi> June, 1663. 15 Caroli 2. <hi>upon ſuch evidence as was</hi>
+                     <pb n="41" facs="tcp:34392:23"/>
+                     <hi>then offered unto us, and upon our own view with mature deliberation thereupon had.</hi>
+                  </head>
+                  <p>
+                     <hi>Imprimis,</hi>
+                  </p>
+                  <p n="1">1. WE Preſent, that for the preſervation of the three thouſand Acres of drowned lands, and the two thouſand Acres of the ſommer-lands within the Upper Levels, That the ſaid ſommer-lands be ſcotted at one third part, in reference or relation to all ſuch ſcots as ſhall hereafter be impoſed upon the drowned lands, to the Works and Rents of <hi>Witterſham,</hi> as formerly hath been done.</p>
+                  <p>
+                     <hi>Item,</hi>
+                  </p>
+                  <p n="2">2. We Preſent, That the lands called by the name of the High-lands, conteining 222 Acres, or thereabouts, and 350 Acres or thereabouts, lying in <hi>Redhill</hi> and <hi>Apple<g ref="char:EOLhyphen"/>dore,</hi> and alſo 426 Acres, or thereabouts, lying in the Pariſh of <hi>Stone,</hi> conteining in the whole by eſtimation, a thouſand Acres or thereabouts, not formerly ſcotted till the yeer 1645. ought not to be ſcotted to the Rents and Works of <hi>Witterſham,</hi> for that it appears to us, they receive no benefit by the ſame.</p>
+                  <p>
+                     <hi>Item,</hi>
+                  </p>
+                  <p n="3">3. We Preſent, and our Opinion is, That the old admeaſurement of the lands lying in <hi>Sherley</hi> Moor, ac<g ref="char:EOLhyphen"/>cording to the larger Acre, ought to be ſcotted as for<g ref="char:EOLhyphen"/>merly, and no otherwiſe.</p>
+                  <p>
+                     <hi>Item,</hi>
+                  </p>
+                  <p n="4">4. We Preſent the Gutts of <hi>Redding, Redhill,</hi> and <hi>Ebony,</hi> lately have been, and ſtill continue very much annoyed by the ſlubb brought in by the ſea into the Channel of <hi>Rother,</hi> whereby the ſaid Channel is very much ſwerved through the decay of the Sluce in <hi>Thorney</hi>
+                     <pb n="42" facs="tcp:34392:24"/>Wall, to the great detriment of thoſe Levels in not well ſewing their waters, and dreyning their lands; And our opinion is, That the ſaid Sewers in ſhort time, will be utterly loſt, unleſs ſome expedient way be found for the ſcouring the Channel in the River of <hi>Rother,</hi> either by erecting the ſaid Sluce at <hi>Thorney</hi> Wall, or otherwiſe as your wiſdomes ſhall think fit. And further, That if any new work or works ſhall be ſhortly attempted for the purpoſes aforeſaid, that all the lands, drowned lands and ſommer-lands, conteining in the whole about five thou<g ref="char:EOLhyphen"/>ſand Acres, and all the thouſand Acres in the High lands at the lower end of <hi>Sherley</hi> Moor, <hi>Redhill, Appledore,</hi> and <hi>Stone,</hi> may be ſcotted at an equal rate for the cleanſing the River of <hi>Rother,</hi> and not otherwiſe.</p>
+                  <list>
+                     <item>
+                        <hi>Thomas Lambert.</hi>
+                     </item>
+                     <item>
+                        <hi>William Andrew.</hi>
+                     </item>
+                     <item>
+                        <hi>Zouch Brockman.</hi>
+                     </item>
+                     <item>
+                        <hi>Edward Simonds.</hi>
+                     </item>
+                     <item>
+                        <hi>William Randolph.</hi>
+                     </item>
+                     <item>
+                        <hi>Iohn Crips.</hi>
+                     </item>
+                     <item>
+                        <hi>Stephen Pook.</hi>
+                     </item>
+                     <item>
+                        <hi>VVilliam Brewer.</hi>
+                     </item>
+                     <item>
+                        <hi>William Delawn.</hi>
+                     </item>
+                     <item>
+                        <hi>George Swan.</hi>
+                     </item>
+                     <item>
+                        <hi>Henry Frere</hi>
+                     </item>
+                     <item>
+                        <hi>John Bull.</hi>
+                     </item>
+                     <item>
+                        <hi>Ioſeph Newington.</hi>
+                     </item>
+                     <item>
+                        <hi>John Moyle.</hi>
+                     </item>
+                     <item>
+                        <hi>Henry Oxenden.</hi>
+                     </item>
+                     <item>
+                        <hi>John Bodnam.</hi>
+                     </item>
+                     <item>
+                        <hi>Robert Drayner.</hi>
+                     </item>
+                     <item>
+                        <hi>Thomas Midmor.</hi>
+                     </item>
+                     <item>
+                        <hi>Walter Roberts.</hi>
+                     </item>
+                  </list>
+                  <p>
+                     <hi>Item,</hi> For the payment of the Rents of <hi>Witterſham</hi> Le<g ref="char:EOLhyphen"/>vel, and for doing the works in the ſaid Level, it is ac<g ref="char:EOLhyphen"/>cording to the Preſentment of a Jury, this day made, Ordered and Decreed, That there ſhall be levied eleven ſcots, each of them of four pence the Acre for all the lands anciently called or reputed ſommer-lands, and ele<g ref="char:EOLhyphen"/>ven ſcots, each of them of twelve pence the Acre, for all the lands anciently called or reputed to be drowned lands, lying between <hi>
+                        <g ref="char:V">Ʋ</g>diham</hi> Oak, and <hi>Oxney</hi> Ferry, and uſually before the yeer 1645. ſcotted to the works upon
+<pb n="43" facs="tcp:34392:24"/>the River of <hi>Rother,</hi> to be paid by the Owners and Occu<g ref="char:EOLhyphen"/>piers of the ſaid lands reſpectively. All which eleven ſcots are hereby granted, and are to be paid to Mr. <hi>Wil<g ref="char:EOLhyphen"/>liam Ward,</hi> at the houſe of <hi>Iames Naſh</hi> in <hi>Newenden,</hi> in manner following, <hi>viz.</hi> Four of the ſaid ſcots the 25th of <hi>Iuly</hi> next, four of the ſaid ſcots the 15th of <hi>August</hi> next, and three ſcots reſidue of the ſaid eleven ſcots, the 15th of <hi>September</hi> next. And it is further Ordered and Decreed, That notice ſhall be given for the payment of the ſaid eleven ſcots, at all ſuch Pariſh Churches, as hath heretofore been uſually accuſtomed; And if any perſon or perſons Taxed or Scotted as aforeſaid, ſhall make default of payment of their ſaid ſcots, or any of them, or any part of them, that then he or they ſo ma<g ref="char:EOLhyphen"/>king default, ſhall forfeit and pay the doubles and wanes of their ſaid ſcots, according to the cuſtome of <hi>Romney</hi> Marſh, to be Levied by the ſeveral and reſpective Bay<g ref="char:EOLhyphen"/>liffs of the Upper Levels, by diſtreſs and ſale of the Goods and Chattels to be taken upon the lands of him or them ſo ſcotted, making default. And if there be no ſufficient diſtreſs to be had and taken upon the Marſhes ſo ſcotted, or chargeable with the payment of the ſaid ſcots reſpectively. That then the ſaid ſcots ſhall be Le<g ref="char:EOLhyphen"/>vied upon the Goods and Chattels of the ſeveral perſons ſo making default, by diſtreſs and ſale of their Goods and Chattels as aforeſaid, whereſoever there ſhall be ſuffici<g ref="char:EOLhyphen"/>ent diſtreſs found for the Levying thereof.</p>
+                  <p>
+                     <hi>Item,</hi> For the cleanſing of the old Channel between <hi>Farnhill</hi> and <hi>Oxney</hi> Ferry, and mending and arming of the walls of <hi>Stone</hi> Level, and <hi>Appledore</hi> Level, it is alſo according to the aforeſaid Preſentment, Ordered and Decreed, That there ſhall be one ſcot Levied of ſix pence the Acre, upon all the ſcottable lands lying between
+<pb n="44" facs="tcp:34392:25"/>
+                     <hi>Udiham</hi> Oak, and <hi>Oxney</hi> Ferry, as well thoſe lands uſually ſcotted to the works upon the River of <hi>Rother,</hi> before the yeer 1645. as all others at any time ſince ſcotted there<g ref="char:EOLhyphen"/>unto; And alſo upon all the lands in <hi>Appledore</hi> to the foot of the Windmil hill there, and upon all the lands in the Level of <hi>Stone,</hi> to be paid to Mr. <hi>William Ward,</hi> at the houſe of <hi>Iames Naſh</hi> in <hi>Newenden,</hi> upon the laſt day of <hi>Iuly</hi> next enſuing. And it is further Ordered and Decreed, That notice ſhall be given for the payment of the ſaid Scot, at all ſuch Pariſh Churches as hath here<g ref="char:EOLhyphen"/>tofore been uſually accuſtomed; And if any perſon or perſons Taxed or Scotted as aforeſaid, ſhall make default of payment of their ſaid Scot, or any part thereof, That then he or they ſo making default, ſhall forfeit and pay the doubles and wanes of their ſaid Scot, according to the cuſtome of <hi>Romney</hi> Marſh, to be Levied by the ſeve<g ref="char:EOLhyphen"/>ral and reſpective Bayliffs of the Upper Levels, by di<g ref="char:EOLhyphen"/>ſtreſs and ſale of the Goods and Chattels, to be taken upon the lands of him or them ſo ſcotted, making de<g ref="char:EOLhyphen"/>fault; And if there be no ſufficient diſtreſs to be had and taken upon the Marſhes ſo ſcotted, or chargeable with the payment of the ſaid Scot reſpectively, That then the ſaid Scot ſhall be Levied upon the Goods and Chattels of the ſeveral perſons ſo making default, by diſtreſs and ſale of their Goods and Chattels, as aforeſaid, whereſo<g ref="char:EOLhyphen"/>ever there ſhall be ſufficient diſtreſs found for the Levy<g ref="char:EOLhyphen"/>ing thereof.</p>
+                  <p>
+                     <hi>Item,</hi> It is Ordered and Decreed, That the Expendi<g ref="char:EOLhyphen"/>tor of the Upper Levels, ſhall take care of the works in <hi>Witterſham</hi> Level, and make ſuch proviſion of materials, as ſhall be needful for the ſame.</p>
+                  <p>Alſo it is Ordered and deſired, that Sir <hi>George Choute</hi> Knight, <hi>Thomas Herlackenden,</hi> and <hi>John Marten</hi> Eſquires,
+<pb n="45" facs="tcp:34392:25"/>or any two of them, will take the care and overſight of cleanſing the old Channel between <hi>Farnhill</hi> and <hi>Oxney</hi> Ferry, and mending and arming of the walls of <hi>Stone</hi> Level and <hi>Appledore</hi> lands, and give direction for the do<g ref="char:EOLhyphen"/>ing thereof as they ſhall find neceſſary; and the Expen<g ref="char:EOLhyphen"/>ditor is out of the Scot granted for the purpoſe aforeſaid, to ſatisfie and pay ſuch ſummes of money as ſhall be by them directed to be expended for the purpoſes aforeſaid.</p>
+                  <p>
+                     <hi>Item,</hi> It is Ordered and Decreed, That there ſhall be a Seſſion of Sewers holden for the Upper Levels at the ſign of the ſtar in <hi>Maidſtone,</hi> upon the firſt day of <hi>Sep<g ref="char:EOLhyphen"/>tember</hi> next enſuing, in caſe the Aſſize for the County of <hi>Kent</hi> be not holden before that time; And in caſe the ſaid Aſſizes be holden before the ſaid firſt day of <hi>September,</hi> that then there ſhall be a Seſſion of Sewers holden for the ſaid Levels, at the place aforeſaid, the ſe<g ref="char:EOLhyphen"/>cond day after the ſaid Aſſizes ſhall begin.</p>
+                  <p>Alſo it is Ordered and Decreed, That there ſhall not be at any time hereafter, any more moneys expended in the arming of the walls in <hi>Redhill, Appledore,</hi> and <hi>Stone,</hi> then the ſcots ariſing, and to be paid out of thoſe reſpective Levels ſhall amount unto.</p>
+                  <p>
+                     <hi>Item,</hi> It is Ordered and deſired, That Sir <hi>Edward Hales,</hi> Baronet, Sir <hi>George Choute,</hi> Knight, <hi>Thomas Her<g ref="char:EOLhyphen"/>lackenden, Edward Hales, John Marten, Thomas Lake, Iohn Horſmonden, Samuel Boys,</hi> and <hi>Ralph Bufkin,</hi> Eſquires, or any three or more of them, would be pleaſed to meet at the ſign of the Kings Head in <hi>Cranbrook,</hi> upon the 16th day of <hi>Iuly</hi> next enſuing, and to examine and caſt up the accounts of Mr. <hi>William Ward</hi> Expenditor for the Upper Levels, and to certifie the ſame at the next Seſſion of Sewers.</p>
+                  <closer>
+                     <pb n="46" facs="tcp:34392:26"/>
+                     <signed>
+                        <list>
+                           <item>
+                              <hi>Edward Hales.</hi>
+                           </item>
+                           <item>
+                              <hi>An ho. Ancher.</hi>
+                           </item>
+                           <item>
+                              <hi>George Choute.</hi>
+                           </item>
+                           <item>
+                              <hi>George Porter.</hi>
+                           </item>
+                           <item>
+                              <hi>Edward Hales.</hi>
+                           </item>
+                           <item>
+                              <hi>Iohn Horſmonden.</hi>
+                           </item>
+                           <item>
+                              <hi>Iohn Covert.</hi>
+                           </item>
+                           <item>
+                              <hi>Tho. Herlackenden.</hi>
+                           </item>
+                           <item>
+                              <hi>Iohn Midleton.</hi>
+                           </item>
+                        </list>
+                     </signed>
+                  </closer>
+               </body>
+            </floatingText>
+            <p>My Lords,</p>
+            <p>If thoſe Jurors had taken a view of the lands in <hi>Sherley</hi> Moor, <hi>Redhill</hi> and <hi>Appledore,</hi> (howbeit there fell much rain about that time) they would have found them to be welſewing lands; and that all the ſommer-lands in <hi>Sher<g ref="char:EOLhyphen"/>ley</hi> Moor and elſewhere, other then part of <hi>Ebony</hi> Level, (which have fall enough into the Channel to do the ſame) iſſue their waters, together with the drowned lands, through the Indraught in <hi>Witterſham</hi> Level, and then I preſume would not (upon mature deliberation) have found any reaſon why the late ſommer-lands ſhould be ſcotted for their preſervation, but at one third part with the late drowned lands, unto the ſaid Works and In<g ref="char:EOLhyphen"/>draught, whereby they equally enjoy preſervation, the ſommer-lands being of equal yeerly value with the beſt of the drowned lands, and of much more, then a conſide<g ref="char:EOLhyphen"/>rable part of them.</p>
+            <p>And they might likewiſe then have ſeen, That the High-lands in <hi>Sherley</hi> Moor, <hi>Redhill,</hi> and <hi>Appledore,</hi> iſſue their waters between <hi>Redding</hi> Gutt and <hi>Keet</hi> Gutt, one of them lying on the Eaſt, the other on the Weſt of them, <hi>viz.</hi> above and belove them, upon the ſame Channel, and muſt have benefit of ſewer, as thoſe lands have which ſew their waters through <hi>Redding</hi> and <hi>Keet</hi> Gutts, and con<g ref="char:EOLhyphen"/>tribute to the charge of the ſaid Works and Indraught, for the benefit they receive thereby; and then I preſume, that they would not have preſented, That it did not ap<g ref="char:EOLhyphen"/>pear unto them, that the High-lands in <hi>Sherley</hi> Moor, <hi>Redhill,</hi> and <hi>Appledore,</hi> (iſſuing their waters between <hi>Red<g ref="char:EOLhyphen"/>ding</hi>
+               <pb n="47" facs="tcp:34392:26"/>and <hi>Keet</hi> Gutts as aforeſaid) received any benefit by the ſaid Works and Indraught, much leſs have preſent<g ref="char:EOLhyphen"/>ed (upon mature deliberation) that thoſe lands ought not to be ſcotted unto the ſaid Works and Indraught, for that it appears unto them, that they receive no benefit thereby, eſpecially when it after appears in the fourth Clauſe of their preſentment, That the maintaining of the Outfall into the old Channel, is neceſſary for the well ſewing of thoſe High-lands.</p>
+            <p>And further, had thoſe Jurors been converſant or acquainted with matters of Sewers, they could not upon mature deliberation have preſented, That for repair of the Sluce at <hi>Thorney</hi> Wall, and cleanſing the ſlub out of the Channel there, that all the lands, drowned lands and ſommer-lands, conteining about 5000 Acres, and the 1000 Acres of High-lands, ſhall be equally ſcotted to the Charge thereof, when as it appeared unto them up<g ref="char:EOLhyphen"/>on their View, and is apparent to every eye upon the Place, that no part of the drowned lands, nor the twen<g ref="char:EOLhyphen"/>tieth part of the ſommer-lands, ſew any of their waters by that Sluce or Channel; and therefore by the Law and Rule of Sewers, are not to be ſcotted thereunto; or had they well underſtood what operations and effects Groyns and Obſtructions make in a ſalt Channel, they would not have preſented, That the decay of that Sluce, was the cauſe that the ſlubb ſwerved the Channel, but would have preſented, That the Groyns, Bridges, and Obſtructions made in the Channel, had cauſed the ſame, and that it were fit to have them removed.</p>
+            <p>That thoſe Groynes and Obſtructions, have cauſed the Channel to ſwerve, hath appeared upon ſeveral Views of the Commiſſioners,. And it is further mani<g ref="char:EOLhyphen"/>feſted by ſeveral Decrees (which are hereunto annexed)
+<pb n="48" facs="tcp:34392:27"/>made by Commiſſioners, moſt of them being intereſſed in the ſommer-lands; and had been removed, if the li<g ref="char:EOLhyphen"/>mits of <hi>Walland</hi> Marſh had not been unduly inlarged to <hi>Oxney</hi> Ferry, (which prevented the ſame) As your Lord<g ref="char:EOLhyphen"/>ſhips may well remember.</p>
+            <p>My Lords,</p>
+            <p>I beleeve thoſe Jurors to be men of integrity, and ſuch as will not act contrary to their Conſciences; But they are men, and may erre in their Judgements through miſs-Conuſance or miſs-Information, therefore I hope it may be ſaid without offence, that there are errours in their Preſentments.</p>
+            <p>As to the Decrees which are made according to thoſe Preſentments, I ſhall not mention them, for that your Lordſhips may judge of them by what hath been already declared; Only your Lordſhips may take notice, That the Commiſſioners have not only charged all thoſe lands for cleanſing the ſaid Channel as is preſented, but have further charged them towards the mending and arming the Walls in <hi>Stone</hi> and <hi>Appledore</hi> Levels, which were at firſt made, and have ever ſince been maintained, as all the other Walls of the Upper Levels are, at the parti<g ref="char:EOLhyphen"/>cular Charge of the reſpective Owners.</p>
+            <p>My Lords,</p>
+            <p>I have quitted my Intereſt in the Levels, and have ta<g ref="char:EOLhyphen"/>ken this trouble upon me for Vindication of the Truth, and to beget a right Underſtanding of the Matters in Difference, in the Parties concerned, that Peace and Uni<g ref="char:EOLhyphen"/>ty may enſue thereupon, which is the Chief aim of,</p>
+            <closer>
+               <salute>My Lords,</salute> 
+               <signed>Your Honours obliged and humble Servant, <hi>Nathaneel Powel.</hi>
+               </signed> 
+               <dateline>
+                  <date>
+                     <hi>July</hi> the 10th 1663.</date>
+               </dateline>
+            </closer>
+            <pb facs="tcp:34392:27"/>
+         </div>
+      </body>
+   </text>
+</TEI>
